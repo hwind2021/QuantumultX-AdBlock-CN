@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 hwind2021
+Copyright (c) 2026 QuantumultX-CN
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+关于规则数据
+
+本仓库的规则数据并非原创，而是采集自以下开源项目后经筛选、合并、去重与
+国内化增强后的产物。各上游项目保留其自身的许可：
+
+- blackmatrix7/ios_rule_script
+  https://github.com/blackmatrix7/ios_rule_script
+
+- privacy-protection-tools/anti-AD
+  https://github.com/privacy-protection-tools/anti-AD
+
+本仓库代码（tools/ 目录）采用上述 MIT 许可。
+二次分发时请保留上游来源声明。

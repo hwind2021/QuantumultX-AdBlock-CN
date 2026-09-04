@@ -1,0 +1,23 @@
+# 构建缓存与上游原始数据（体积大且可重新拉取）
+.cache/
+build.log
+verify.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~

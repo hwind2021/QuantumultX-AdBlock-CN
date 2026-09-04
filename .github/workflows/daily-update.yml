@@ -1,0 +1,162 @@
+name: 每日规则更新
+
+# ---------------------------------------------------------------------------
+# 每日 UTC 20:00（北京时间次日 04:00）自动拉取上游最新规则，
+# 重建全部产物并通过安全校验后提交。
+#
+# 上游项目多在白天推送更新，凌晨构建既能拿到最新数据，
+# 又避开 GitHub Actions 的高峰时段（高峰期 cron 可能延迟数十分钟）。
+#
+# 校验失败时不会提交，保留上一版可用规则，避免把问题规则推给用户。
+# ---------------------------------------------------------------------------
+
+on:
+  schedule:
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: '忽略校验警告强制提交'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: 拉取上游并重建规则
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 恢复构建缓存
+        uses: actions/cache@v4
+        with:
+          path: .cache/upstream
+          key: upstream-${{ github.run_id }}
+          restore-keys: |
+            upstream-
+
+      - name: 构建规则
+        id: build
+        run: |
+          python tools/build.py 2>&1 | tee build.log
+          echo "=== 构建完成 ==="
+
+      - name: 安全校验
+        id: verify
+        continue-on-error: true
+        run: |
+          python tools/verify.py 2>&1 | tee verify.log
+          echo "verify_exit=${PIPESTATUS[0]}" >> $GITHUB_OUTPUT
+
+      - name: 校验失败处理
+        if: steps.verify.outputs.verify_exit != '0'
+        run: |
+          echo "::error::安全校验未通过，已中止提交，保留上一版规则"
+          echo "--- 校验输出 ---"
+          cat verify.log
+          exit 1
+
+      - name: 统计产物规模
+        id: stats
+        run: |
+          echo "### 📊 本次构建产物规模" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| 文件 | 规则数 | 大小 |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---:|---:|" >> $GITHUB_STEP_SUMMARY
+          for f in quantumultx/filter/*.list; do
+            name=$(basename "$f")
+            count=$(grep -vcE '^\s*(#|$)' "$f" || echo 0)
+            size=$(du -h "$f" | cut -f1)
+            echo "| \`$name\` | ${count} | ${size} |" >> $GITHUB_STEP_SUMMARY
+          done
+          for f in quantumultx/rewrite/*.conf; do
+            name=$(basename "$f")
+            count=$(grep -vcE '^\s*(#|$)' "$f" || echo 0)
+            echo "| \`$name\` | ${count} | - |" >> $GITHUB_STEP_SUMMARY
+          done
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "--- 校验结果 ---" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat verify.log >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: 生成变更记录
+        run: |
+          DATE=$(TZ='Asia/Shanghai' date '+%Y-%m-%d')
+          TIME=$(TZ='Asia/Shanghai' date '+%H:%M:%S')
+          TOTAL=$(cat quantumultx/filter/*.list | grep -vcE '^\s*(#|$)' || echo 0)
+
+          {
+            echo "## ${DATE} ${TIME}"
+            echo ""
+            echo "自动同步上游规则。主要产物规模："
+            echo ""
+            for f in quantumultx/filter/*.list quantumultx/rewrite/*.conf; do
+              name=$(basename "$f")
+              count=$(grep -vcE '^\s*(#|$)' "$f" || echo 0)
+              echo "- \`${name}\`：${count} 条"
+            done
+            echo ""
+          } > /tmp/entry.md
+
+          if [ -f CHANGELOG.md ]; then
+            # 把新条目插入到标题行之后
+            awk 'NR==1{print; print ""; while((getline line < "/tmp/entry.md")>0) print line; next} {print}' \
+              CHANGELOG.md > /tmp/changelog.md
+            mv /tmp/changelog.md CHANGELOG.md
+          else
+            {
+              echo "# 更新记录"
+              echo ""
+              cat /tmp/entry.md
+            } > CHANGELOG.md
+          fi
+
+      - name: 检查是否有实质变更
+        id: diff
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "本次构建与上一版无差异，跳过提交"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changes<<EOF" >> $GITHUB_OUTPUT
+            git diff --cached --stat >> $GITHUB_OUTPUT
+            echo "EOF" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 提交并推送
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          DATE=$(TZ='Asia/Shanghai' date '+%Y-%m-%d')
+          git commit -m "chore(rules): 每日规则自动更新 ${DATE}"
+          git push
+
+      - name: 变更概要
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          echo "### ✅ 规则已更新" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.diff.outputs.changes }}" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,108 @@
+# ============================================================================
+# 白名单（关键业务保命清单）
+# ----------------------------------------------------------------------------
+# 从上游合并的大体量广告规则中，误杀风险始终存在。本白名单用于在构建阶段
+# 剔除任何命中以下域名的规则，保证「支付 / 登录 / 推送 / 系统服务」不受影响。
+#
+# 匹配方式：后缀匹配（被保护域名本身及其所有子域均不放行拦截规则）
+# ============================================================================
+
+# ---------------------------- Apple 系统服务 ----------------------------
+apple.com
+icloud.com
+icloud.com.cn
+apple-cloudkit.com
+apple-dns.net
+mzstatic.com
+apple-mapkit.com
+applemusic.com
+appstore.com
+itunes.com
+apple.news
+apple.co
+aaplimg.com
+cdn-apple.com
+push-apple.com
+siri.com
+findmy.apple.com
+gsa.apple.com
+appleiphonecell.com
+
+# ---------------------------- 支付与金融 ----------------------------
+alipay.com
+alipayobjects.com
+alipaydev.com
+taobao.com/h5
+tenpay.com
+wechatpay.cn
+weixin.qq.com/pay
+pay.weixin.qq.com
+unionpay.com
+95516.com
+icbc.com.cn
+ccb.com
+boc.cn
+psbc.com
+cmbchina.com
+abchina.com
+bankcomm.com
+
+# ---------------------------- 即时通讯基础服务 ----------------------------
+# 注意：仅保护基础通信，不保护朋友圈/公众号广告（那部分走广点通域名，仍会被拦截）
+weixin.qq.com
+wx.qq.com
+qq.com/pb
+szextshort.weixin.qq.com
+extshort.weixin.qq.com
+hk-extshort.weixin.qq.com
+szlong.weixin.qq.com
+support.weixin.qq.com
+res.wx.qq.com
+wxapp.tc.qq.com
+idasc.webank.com
+
+# ---------------------------- 域名解析与网络基础 ----------------------------
+# 注意：HTTPDNS 是被单独拦截的，此处仅保护系统 DNS 与 NTP
+apple-dns.net
+time.apple.com
+time-ios.apple.com
+networking.apple.com
+captive.apple.com
+mask-api.fe.apple-dns.net
+
+# ---------------------------- 主流 App 核心业务域 ----------------------------
+# 这些是 App 主功能域名，一旦被广告规则误伤会导致 App 不可用。
+# 广告相关子域由更精确的 rewrite 规则处理，不在分流层拦截。
+api.m.jd.com/gw
+api.m.jd.com/client.action
+h5.m.taobao.com
+main.m.taobao.com
+login.taobao.com
+passport.taobao.com
+api.vmall.com
+api.mi.com
+account.xiaomi.com
+passport.meituan.com
+apimobile.meituan.com
+app.dianping.com
+api.dianping.com
+client.map.qq.com
+restapi.amap.com
+m.ctrip.com
+you.ctrip.com
+api.12306.cn
+kyfw.12306.cn
+app.12306.cn
+
+# ---------------------------- 开发与通用基础 ----------------------------
+githubusercontent.com
+github.com
+raw.githubusercontent.com
+gitee.com
+jsdelivr.net
+unpkg.com
+npmjs.com
+npmmirror.com
+cloudflare.com
+akamai.net
+akamaihd.net

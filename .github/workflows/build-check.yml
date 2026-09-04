@@ -1,0 +1,97 @@
+name: 构建链路自检
+
+# ---------------------------------------------------------------------------
+# 每次 PR / Push 时验证构建与校验脚本本身可用，
+# 防止改动工具链后导致每日自动更新静默失败。
+#
+# 这里只跑「能否构建成功 + 产物是否安全」，
+# 不提交产物（提交由 daily-update.yml 负责）。
+# ---------------------------------------------------------------------------
+
+on:
+  pull_request:
+    branches: [main, master]
+    paths:
+      - 'tools/**'
+      - 'quantumultx/script/**'
+      - '.github/workflows/**'
+  push:
+    branches: [main, master]
+    paths:
+      - 'tools/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: 构建与校验
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 语法检查
+        run: |
+          python -m py_compile tools/build.py tools/verify.py
+          echo "✓ Python 语法检查通过"
+
+      - name: 构建产物
+        run: python tools/build.py
+
+      - name: 安全校验
+        run: python tools/verify.py
+
+      - name: 检查产物完整性
+        run: |
+          set -e
+          required=(
+            "quantumultx/filter/Splash-Killer.list"
+            "quantumultx/filter/BlockHttpDNS.list"
+            "quantumultx/filter/AdBlock-Lite.list"
+            "quantumultx/filter/AdBlock-Full.list"
+            "quantumultx/rewrite/AdBlock-Splash.conf"
+            "quantumultx/rewrite/AdBlock-Feed.conf"
+            "quantumultx/mitm/MITM.list"
+            "quantumultx/script/splash-killer.js"
+            "quantumultx/script/feed-killer.js"
+          )
+          for f in "${required[@]}"; do
+            if [ ! -s "$f" ]; then
+              echo "::error::缺失或为空的产物文件：$f"
+              exit 1
+            fi
+            echo "✓ $f"
+          done
+
+      - name: JS 脚本语法检查
+        run: |
+          set -e
+          for f in quantumultx/script/*.js; do
+            node --check "$f" && echo "✓ $f"
+          done
+
+      - name: JS 脚本功能测试
+        run: |
+          set -e
+          for f in tools/tests/*.js; do
+            echo "--- 运行 $(basename "$f") ---"
+            node "$f"
+          done
+
+      - name: 产物统计
+        run: |
+          echo "### 📦 产物统计" >> $GITHUB_STEP_SUMMARY
+          echo "| 文件 | 规则数 |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---:|" >> $GITHUB_STEP_SUMMARY
+          for f in quantumultx/filter/*.list; do
+            echo "| \`$(basename "$f")\` | $(grep -vcE '^\s*(#|$)' "$f") |" >> $GITHUB_STEP_SUMMARY
+          done
