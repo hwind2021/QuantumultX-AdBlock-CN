@@ -178,6 +178,7 @@ QuantumultX-AdBlock-CN/
 ├── tools/
 │   ├── build.py                 # 构建引擎
 │   ├── verify.py                # 安全校验器
+│   ├── push_via_api.py          # ★ API 推送工具（受限网络备用）
 │   └── data/
 │       ├── splash_sdk.conf      # ★ 开屏广告 SDK 精选清单（核心资产）
 │       └── whitelist.txt        # 关键业务白名单
