@@ -1,14 +1,14 @@
 # NAME: AdBlock-Lite
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-09-07 06:02:48 (UTC+8)
+# UPDATED: 2026-09-08 06:42:42 (UTC+8)
 # POLICY: REJECT
-# HOST: 8753
-# HOST-SUFFIX: 13767
+# HOST: 8735
+# HOST-SUFFIX: 13745
 # HOST-KEYWORD: 56
 # IP-CIDR: 222
 # IP6-CIDR: 4
-# TOTAL: 22802
+# TOTAL: 22762
 # DESC: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 
 HOST-SUFFIX,000dn.com,REJECT
@@ -113,7 +113,6 @@ HOST-SUFFIX,116b.com,REJECT
 HOST-SUFFIX,1178.shucong.com,REJECT
 HOST-SUFFIX,1188.com,REJECT
 HOST-SUFFIX,11h5.com,REJECT
-HOST-SUFFIX,11nux.com,REJECT
 HOST-SUFFIX,12.cookcai.com,REJECT
 HOST-SUFFIX,12291.com,REJECT
 HOST-SUFFIX,123-counter.de,REJECT
@@ -198,7 +197,6 @@ HOST-SUFFIX,2016bobo.cf,REJECT
 HOST-SUFFIX,2017img.myxh999.com,REJECT
 HOST-SUFFIX,202m.com,REJECT
 HOST-SUFFIX,203710.com,REJECT
-HOST-SUFFIX,204st.us,REJECT
 HOST-SUFFIX,206ads.com,REJECT
 HOST-SUFFIX,206solutions.com,REJECT
 HOST-SUFFIX,20dollars2surf.com,REJECT
@@ -282,7 +280,6 @@ HOST-SUFFIX,360installer.com,REJECT
 HOST-SUFFIX,360jiaquan.com,REJECT
 HOST-SUFFIX,360protected.com,REJECT
 HOST-SUFFIX,360shopping.com.cn,REJECT
-HOST-SUFFIX,360tag.com,REJECT
 HOST-SUFFIX,360tag.net,REJECT
 HOST-SUFFIX,360yield.com,REJECT
 HOST-SUFFIX,36500.com,REJECT
@@ -478,10 +475,8 @@ HOST-SUFFIX,778669.com,REJECT
 HOST-SUFFIX,7794.com,REJECT
 HOST-SUFFIX,77av.cn,REJECT
 HOST-SUFFIX,77tianxu.cn,REJECT
-HOST-SUFFIX,77tracking.com,REJECT
 HOST-SUFFIX,77u.com,REJECT
 HOST-SUFFIX,77vip.wang,REJECT
-HOST-SUFFIX,7bpeople.com,REJECT
 HOST-SUFFIX,7car.com.cn,REJECT
 HOST-SUFFIX,7cjsh.cn,REJECT
 HOST-SUFFIX,7clink.com,REJECT
@@ -731,8 +726,6 @@ HOST-SUFFIX,abc.zuiairead.com,REJECT
 HOST-SUFFIX,abcd.zsrt88.cn,REJECT
 HOST-SUFFIX,abckzo.cn,REJECT
 HOST-SUFFIX,abcompteur.com,REJECT
-HOST-SUFFIX,abcstats.com,REJECT
-HOST-SUFFIX,abgligarchan.com,REJECT
 HOST-SUFFIX,ablsrv.com,REJECT
 HOST-SUFFIX,abmr.net,REJECT
 HOST-SUFFIX,abnad.net,REJECT
@@ -751,14 +744,12 @@ HOST-SUFFIX,ac.art456.com,REJECT
 HOST-SUFFIX,ac1.786ip.com,REJECT
 HOST-SUFFIX,ac3.msn.com,REJECT
 HOST-SUFFIX,acc-hd.de,REJECT
-HOST-SUFFIX,access-analyze.org,REJECT
 HOST-SUFFIX,accessi.it,REJECT
 HOST-SUFFIX,accessintel.com,REJECT
 HOST-SUFFIX,accesstrade.net,REJECT
 HOST-SUFFIX,accmgr.com,REJECT
 HOST-SUFFIX,accscdn.m.taobao.com,REJECT
 HOST-SUFFIX,acecounter.com,REJECT
-HOST-SUFFIX,acetrk.com,REJECT
 HOST-SUFFIX,acexedge.com,REJECT
 HOST-SUFFIX,acgbase.com,REJECT
 HOST-SUFFIX,acgbenzi.com,REJECT
@@ -780,7 +771,6 @@ HOST-SUFFIX,acsbap.com,REJECT
 HOST-SUFFIX,acsystem.wasu.cn,REJECT
 HOST-SUFFIX,acsystem.wasu.tv,REJECT
 HOST-SUFFIX,act.qq.com,REJECT
-HOST-SUFFIX,actiflex.org,REJECT
 HOST-SUFFIX,actionbutton.co,REJECT
 HOST-SUFFIX,actiondesk.com,REJECT
 HOST-SUFFIX,actirinius.com,REJECT
@@ -829,7 +819,6 @@ HOST-SUFFIX,ad-plus.cn,REJECT
 HOST-SUFFIX,ad-recommend.com,REJECT
 HOST-SUFFIX,ad-score.com,REJECT
 HOST-SUFFIX,ad-server.co.za,REJECT
-HOST-SUFFIX,ad-serverparc.nl,REJECT
 HOST-SUFFIX,ad-srv-track.com,REJECT
 HOST-SUFFIX,ad-srv.net,REJECT
 HOST-SUFFIX,ad-stir.com,REJECT
@@ -1313,7 +1302,6 @@ HOST-SUFFIX,adnow.com,REJECT
 HOST-SUFFIX,adnuntius.com,REJECT
 HOST-SUFFIX,adnxs.com,REJECT
 HOST-SUFFIX,adnxs.net,REJECT
-HOST-SUFFIX,adnxs1.com,REJECT
 HOST-SUFFIX,adnyg.com,REJECT
 HOST-SUFFIX,adobe-dns-2.adobe.com,REJECT
 HOST-SUFFIX,adobe-dns-3.adobe.com,REJECT
@@ -1554,7 +1542,6 @@ HOST-SUFFIX,adsnative.com,REJECT
 HOST-SUFFIX,adsniper.ru,REJECT
 HOST-SUFFIX,adsolution.imtt.qq.com,REJECT
 HOST-SUFFIX,adsonar.com,REJECT
-HOST-SUFFIX,adsoptimal.com,REJECT
 HOST-SUFFIX,adsp.xunlei.com,REJECT
 HOST-SUFFIX,adsparc.net,REJECT
 HOST-SUFFIX,adspdbl.com,REJECT
@@ -1647,7 +1634,6 @@ HOST-SUFFIX,adultfriendfinder.com,REJECT
 HOST-SUFFIX,adultimate.net,REJECT
 HOST-SUFFIX,adultlinkexchange.com,REJECT
 HOST-SUFFIX,adultmoda.com,REJECT
-HOST-SUFFIX,adultmoviegroup.com,REJECT
 HOST-SUFFIX,adultsense.com,REJECT
 HOST-SUFFIX,adultsense.org,REJECT
 HOST-SUFFIX,adunite.com,REJECT
@@ -2955,7 +2941,6 @@ HOST-SUFFIX,bridgevine.com,REJECT
 HOST-SUFFIX,brighteroption.com,REJECT
 HOST-SUFFIX,brightfunnel.com,REJECT
 HOST-SUFFIX,brightinfo.com,REJECT
-HOST-SUFFIX,brightonclick.com,REJECT
 HOST-SUFFIX,brightshare.com,REJECT
 HOST-SUFFIX,brilig.com,REJECT
 HOST-SUFFIX,brizads.com,REJECT
@@ -4341,7 +4326,6 @@ HOST-SUFFIX,dc08i221b0n8a.cloudfront.net,REJECT
 HOST-SUFFIX,dc2.csdn.net,REJECT
 HOST-SUFFIX,dc5k8fg5ioc8s.cloudfront.net,REJECT
 HOST-SUFFIX,dc8na2hxrj29i.cloudfront.net,REJECT
-HOST-SUFFIX,dc8xl0ndzn2cb.cloudfront.net,REJECT
 HOST-SUFFIX,dcads.sina.com.cn,REJECT
 HOST-SUFFIX,dcapps.disney.go.com,REJECT
 HOST-SUFFIX,dcc.ghrtgf.xyz,REJECT
@@ -8655,7 +8639,6 @@ HOST-SUFFIX,mobtop.ru,REJECT
 HOST-SUFFIX,mobtyb.com,REJECT
 HOST-SUFFIX,mobvista.com,REJECT
 HOST-SUFFIX,mobylog.jp,REJECT
-HOST-SUFFIX,mocean.mobi,REJECT
 HOST-SUFFIX,mochibot.com,REJECT
 HOST-SUFFIX,mockingfish.com,REJECT
 HOST-SUFFIX,modelsgonebad.com,REJECT
@@ -10012,7 +9995,6 @@ HOST-SUFFIX,publift.com,REJECT
 HOST-SUFFIX,publir.com,REJECT
 HOST-SUFFIX,publish-int.se,REJECT
 HOST-SUFFIX,publisher.monster.com,REJECT
-HOST-SUFFIX,publishflow.com,REJECT
 HOST-SUFFIX,publy.net,REJECT
 HOST-SUFFIX,pubmatic.com,REJECT
 HOST-SUFFIX,pubmine.com,REJECT
@@ -10516,7 +10498,6 @@ HOST-SUFFIX,rhetoricalloss.com,REJECT
 HOST-SUFFIX,rhinoseo.com,REJECT
 HOST-SUFFIX,rhombusads.com,REJECT
 HOST-SUFFIX,riastats.com,REJECT
-HOST-SUFFIX,ricead.com,REJECT
 HOST-SUFFIX,rich.kuwo.cn,REJECT
 HOST-SUFFIX,richard-group.com,REJECT
 HOST-SUFFIX,richmetrics.com,REJECT
@@ -10920,7 +10901,6 @@ HOST-SUFFIX,sellhealth.com,REJECT
 HOST-SUFFIX,sellpoint.net,REJECT
 HOST-SUFFIX,sellpoints.com,REJECT
 HOST-SUFFIX,selwrite.com,REJECT
-HOST-SUFFIX,semanticverses.com,REJECT
 HOST-SUFFIX,semantiqo.com,REJECT
 HOST-SUFFIX,semasio.net,REJECT
 HOST-SUFFIX,sematext.com,REJECT
@@ -12142,7 +12122,6 @@ HOST-SUFFIX,tracking.sembox.it,REJECT
 HOST-SUFFIX,tracking.skyword.com,REJECT
 HOST-SUFFIX,tracking.unrealengine.com,REJECT
 HOST-SUFFIX,tracking202.com,REJECT
-HOST-SUFFIX,trackinglabs.com,REJECT
 HOST-SUFFIX,trackingpro.pro,REJECT
 HOST-SUFFIX,trackkas.com,REJECT
 HOST-SUFFIX,tracklog.58.com,REJECT
@@ -13518,7 +13497,6 @@ HOST-SUFFIX,yktj.yzz.cn,REJECT
 HOST-SUFFIX,ykxwn.com,REJECT
 HOST-SUFFIX,yl850555.com,REJECT
 HOST-SUFFIX,ylads.yaolan.com,REJECT
-HOST-SUFFIX,yldbt.com,REJECT
 HOST-SUFFIX,yldmgrimg.net,REJECT
 HOST-SUFFIX,yldr.io,REJECT
 HOST-SUFFIX,yllix.com,REJECT
@@ -13822,7 +13800,6 @@ HOST,114park.com,REJECT
 HOST,11599jgj.com,REJECT
 HOST,116b.com,REJECT
 HOST,1188.com,REJECT
-HOST,11nux.com,REJECT
 HOST,12291.com,REJECT
 HOST,123-counter.de,REJECT
 HOST,123.ydylwang.net,REJECT
@@ -13860,7 +13837,6 @@ HOST,2.arpun.com,REJECT
 HOST,200218.com,REJECT
 HOST,2005net.net,REJECT
 HOST,200summit.com,REJECT
-HOST,204st.us,REJECT
 HOST,206ads.com,REJECT
 HOST,206solutions.com,REJECT
 HOST,20dollars2surf.com,REJECT
@@ -13899,7 +13875,6 @@ HOST,360i.com,REJECT
 HOST,360in.com,REJECT
 HOST,360installer.com,REJECT
 HOST,360protected.com,REJECT
-HOST,360tag.com,REJECT
 HOST,360tag.net,REJECT
 HOST,360yield.com,REJECT
 HOST,36500.com,REJECT
@@ -13988,9 +13963,7 @@ HOST,777partner.net,REJECT
 HOST,777partners.com,REJECT
 HOST,77av.cn,REJECT
 HOST,77tianxu.cn,REJECT
-HOST,77tracking.com,REJECT
 HOST,77vip.wang,REJECT
-HOST,7bpeople.com,REJECT
 HOST,7cjsh.cn,REJECT
 HOST,7dlm.cn,REJECT
 HOST,7eer.net,REJECT
@@ -14083,7 +14056,6 @@ HOST,ab.gaoguang.com,REJECT
 HOST,ab11s.com,REJECT
 HOST,abc.zuiairead.com,REJECT
 HOST,abcompteur.com,REJECT
-HOST,abcstats.com,REJECT
 HOST,ablsrv.com,REJECT
 HOST,abmr.net,REJECT
 HOST,abnad.net,REJECT
@@ -14097,14 +14069,12 @@ HOST,abtao.wang,REJECT
 HOST,abtshield.com,REJECT
 HOST,abusedbabysitters.com,REJECT
 HOST,acc-hd.de,REJECT
-HOST,access-analyze.org,REJECT
 HOST,accessi.it,REJECT
 HOST,accessintel.com,REJECT
 HOST,accesstrade.net,REJECT
 HOST,accmgr.com,REJECT
 HOST,accscdn.m.taobao.com,REJECT
 HOST,acecounter.com,REJECT
-HOST,acetrk.com,REJECT
 HOST,acexedge.com,REJECT
 HOST,acgbase.com,REJECT
 HOST,acgbenzi.com,REJECT
@@ -14119,7 +14089,6 @@ HOST,acs.56.com,REJECT
 HOST,acs.agent.56.com,REJECT
 HOST,acs.wapa.taobao.com,REJECT
 HOST,acsbap.com,REJECT
-HOST,actiflex.org,REJECT
 HOST,actionbutton.co,REJECT
 HOST,actiondesk.com,REJECT
 HOST,actirinius.com,REJECT
@@ -14509,7 +14478,6 @@ HOST,adsmis.duxiaoman.com,REJECT
 HOST,adsnative.com,REJECT
 HOST,adsniper.ru,REJECT
 HOST,adsonar.com,REJECT
-HOST,adsoptimal.com,REJECT
 HOST,adsparc.net,REJECT
 HOST,adspdbl.com,REJECT
 HOST,adspeed.com,REJECT
@@ -14577,7 +14545,6 @@ HOST,adultforce.com,REJECT
 HOST,adultimate.net,REJECT
 HOST,adultlinkexchange.com,REJECT
 HOST,adultmoda.com,REJECT
-HOST,adultmoviegroup.com,REJECT
 HOST,adultsense.com,REJECT
 HOST,adultsense.org,REJECT
 HOST,adunite.com,REJECT
@@ -15418,7 +15385,6 @@ HOST,bridgevine.com,REJECT
 HOST,brighteroption.com,REJECT
 HOST,brightfunnel.com,REJECT
 HOST,brightinfo.com,REJECT
-HOST,brightonclick.com,REJECT
 HOST,brightshare.com,REJECT
 HOST,brilig.com,REJECT
 HOST,broadcastbed.com,REJECT
@@ -16339,7 +16305,6 @@ HOST,dc-storm.com,REJECT
 HOST,dc08i221b0n8a.cloudfront.net,REJECT
 HOST,dc5k8fg5ioc8s.cloudfront.net,REJECT
 HOST,dc8na2hxrj29i.cloudfront.net,REJECT
-HOST,dc8xl0ndzn2cb.cloudfront.net,REJECT
 HOST,dcc.ghrtgf.xyz,REJECT
 HOST,dcc.strbgi.xyz,REJECT
 HOST,dcmn.com,REJECT
@@ -19141,7 +19106,6 @@ HOST,mobpartner.mobi,REJECT
 HOST,mobtop.ru,REJECT
 HOST,mobtyb.com,REJECT
 HOST,mobylog.jp,REJECT
-HOST,mocean.mobi,REJECT
 HOST,mochibot.com,REJECT
 HOST,mockingfish.com,REJECT
 HOST,modelsgonebad.com,REJECT
@@ -20090,7 +20054,6 @@ HOST,publift.com,REJECT
 HOST,publir.com,REJECT
 HOST,publish-int.se,REJECT
 HOST,publisher.monster.com,REJECT
-HOST,publishflow.com,REJECT
 HOST,publy.net,REJECT
 HOST,pubmine.com,REJECT
 HOST,pubnation.com,REJECT
@@ -20435,7 +20398,6 @@ HOST,rhetoricalloss.com,REJECT
 HOST,rhinoseo.com,REJECT
 HOST,rhombusads.com,REJECT
 HOST,riastats.com,REJECT
-HOST,ricead.com,REJECT
 HOST,richard-group.com,REJECT
 HOST,richmetrics.com,REJECT
 HOST,richstring.com,REJECT
@@ -20680,7 +20642,6 @@ HOST,sellhealth.com,REJECT
 HOST,sellpoint.net,REJECT
 HOST,sellpoints.com,REJECT
 HOST,selwrite.com,REJECT
-HOST,semanticverses.com,REJECT
 HOST,semantiqo.com,REJECT
 HOST,semasio.net,REJECT
 HOST,sematext.com,REJECT
@@ -21543,7 +21504,6 @@ HOST,tracking.sembox.it,REJECT
 HOST,tracking.skyword.com,REJECT
 HOST,tracking.unrealengine.com,REJECT
 HOST,tracking202.com,REJECT
-HOST,trackinglabs.com,REJECT
 HOST,trackkas.com,REJECT
 HOST,trackmethod.com,REJECT
 HOST,trackmytarget.com,REJECT
