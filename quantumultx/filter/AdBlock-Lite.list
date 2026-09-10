@@ -1,14 +1,14 @@
 # NAME: AdBlock-Lite
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-09-10 06:24:52 (UTC+8)
+# UPDATED: 2026-09-11 06:24:25 (UTC+8)
 # POLICY: REJECT
-# HOST: 8735
-# HOST-SUFFIX: 13745
+# HOST: 8738
+# HOST-SUFFIX: 13751
 # HOST-KEYWORD: 56
 # IP-CIDR: 222
 # IP6-CIDR: 4
-# TOTAL: 22762
+# TOTAL: 22771
 # DESC: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 
 HOST-SUFFIX,000dn.com,REJECT
@@ -844,6 +844,7 @@ HOST-SUFFIX,ad.api.moji.com,REJECT
 HOST-SUFFIX,ad.auditude.com,REJECT
 HOST-SUFFIX,ad.beihai365.com,REJECT
 HOST-SUFFIX,ad.bitmedia.io,REJECT
+HOST-SUFFIX,ad.bn.netease.com,REJECT
 HOST-SUFFIX,ad.bobi.tw,REJECT
 HOST-SUFFIX,ad.caiyunapp.com,REJECT
 HOST-SUFFIX,ad.cctv.com,REJECT
@@ -935,7 +936,6 @@ HOST-SUFFIX,ad.vivo.com.cn,REJECT
 HOST-SUFFIX,ad.vryeye.com,REJECT
 HOST-SUFFIX,ad.walkgame.com,REJECT
 HOST-SUFFIX,ad.wang502.com,REJECT
-HOST-SUFFIX,ad.weibo.com,REJECT
 HOST-SUFFIX,ad.where.com,REJECT
 HOST-SUFFIX,ad.winrar.com.cn,REJECT
 HOST-SUFFIX,ad.wretch.cc,REJECT
@@ -1029,6 +1029,7 @@ HOST-SUFFIX,adbxb.com,REJECT
 HOST-SUFFIX,adc-serv.net,REJECT
 HOST-SUFFIX,adc.hpplay.cn,REJECT
 HOST-SUFFIX,adcalm.com,REJECT
+HOST-SUFFIX,adcanvas.com,REJECT
 HOST-SUFFIX,adcash.com,REJECT
 HOST-SUFFIX,adcast.deviantart.com,REJECT
 HOST-SUFFIX,adcdn.goo.ne.jp,REJECT
@@ -1246,6 +1247,7 @@ HOST-SUFFIX,admanmedia.com,REJECT
 HOST-SUFFIX,admantx.com,REJECT
 HOST-SUFFIX,admarket.21cn.com,REJECT
 HOST-SUFFIX,admarket.mobi,REJECT
+HOST-SUFFIX,admarketing.yahoo.net,REJECT
 HOST-SUFFIX,admatrix.jp,REJECT
 HOST-SUFFIX,admaxim.com,REJECT
 HOST-SUFFIX,admd.housefun.com.tw,REJECT
@@ -1389,6 +1391,7 @@ HOST-SUFFIX,ads-marketing-vivofs.vivo.com.cn,REJECT
 HOST-SUFFIX,ads-pixiv.net,REJECT
 HOST-SUFFIX,ads-sdk-cn.upltv.com,REJECT
 HOST-SUFFIX,ads-sdk.upltv.com,REJECT
+HOST-SUFFIX,ads-shopping.shouqianba.com,REJECT
 HOST-SUFFIX,ads-twitter.com,REJECT
 HOST-SUFFIX,ads-union.jd.com,REJECT
 HOST-SUFFIX,ads-video-al.xhscdn.com,REJECT
@@ -3703,6 +3706,7 @@ HOST-SUFFIX,contatoreaccessi.com,REJECT
 HOST-SUFFIX,contaxe.com,REJECT
 HOST-SUFFIX,content-cooperation.com,REJECT
 HOST-SUFFIX,content-square.net,REJECT
+HOST-SUFFIX,content.livesportmedia.eu,REJECT
 HOST-SUFFIX,content.s8bbs.com,REJECT
 HOST-SUFFIX,contentabc.com,REJECT
 HOST-SUFFIX,contentclick.co.uk,REJECT
@@ -7709,6 +7713,7 @@ HOST-SUFFIX,lookery.com,REJECT
 HOST-SUFFIX,lookit.cz,REJECT
 HOST-SUFFIX,lookmy.info,REJECT
 HOST-SUFFIX,looksmart.com,REJECT
+HOST-SUFFIX,lookup.api.bsb.baidu.com,REJECT
 HOST-SUFFIX,loopa.net.au,REJECT
 HOST-SUFFIX,loopfuse.net,REJECT
 HOST-SUFFIX,loopme.me,REJECT
@@ -10699,6 +10704,7 @@ HOST-SUFFIX,sa909.com,REJECT
 HOST-SUFFIX,saambaa.com,REJECT
 HOST-SUFFIX,safe-click.net,REJECT
 HOST-SUFFIX,safe.tsgpay.cn,REJECT
+HOST-SUFFIX,safebrowsing.urlsec.qq.com,REJECT
 HOST-SUFFIX,safelinktracker.com,REJECT
 HOST-SUFFIX,safelistextreme.com,REJECT
 HOST-SUFFIX,sageanalyst.net,REJECT
@@ -14305,6 +14311,7 @@ HOST,adm668.com,REJECT
 HOST,adman.gr,REJECT
 HOST,admanmedia.com,REJECT
 HOST,admantx.com,REJECT
+HOST,admarketing.yahoo.net,REJECT
 HOST,admatrix.jp,REJECT
 HOST,admaxim.com,REJECT
 HOST,admedo.com,REJECT
@@ -14397,6 +14404,7 @@ HOST,ads-pixiv.net,REJECT
 HOST,ads-sdk-cn.upltv.com,REJECT
 HOST,ads-sdk.is.com,REJECT
 HOST,ads-sdk.upltv.com,REJECT
+HOST,ads-shopping.shouqianba.com,REJECT
 HOST,ads-union.jd.com,REJECT
 HOST,ads-video-al.xhscdn.com,REJECT
 HOST,ads-video-qc.xhscdn.com,REJECT
@@ -18471,6 +18479,7 @@ HOST,lookery.com,REJECT
 HOST,lookit.cz,REJECT
 HOST,lookmy.info,REJECT
 HOST,looksmart.com,REJECT
+HOST,lookup.api.bsb.baidu.com,REJECT
 HOST,loopa.net.au,REJECT
 HOST,loopfuse.net,REJECT
 HOST,loopme.me,REJECT
