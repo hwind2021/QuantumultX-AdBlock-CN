@@ -1,6 +1,6 @@
 # NAME: MITM
 # AUTHOR: QuantumultX-CN
-# UPDATED: 2026-09-12 06:24:01 (UTC+8)
+# UPDATED: 2026-09-13 06:07:53 (UTC+8)
 # TOTAL: 168
 # DESC: 重写规则依赖的主机名清单，填入 Quantumult X 的 [mitm] 段 hostname 后
 
