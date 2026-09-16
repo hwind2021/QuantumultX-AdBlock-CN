@@ -1,14 +1,14 @@
 # NAME: AdBlock-Lite
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-09-16 06:48:59 (UTC+8)
+# UPDATED: 2026-09-17 06:49:05 (UTC+8)
 # POLICY: REJECT
-# HOST: 8738
-# HOST-SUFFIX: 13751
+# HOST: 8737
+# HOST-SUFFIX: 13749
 # HOST-KEYWORD: 56
 # IP-CIDR: 222
 # IP6-CIDR: 4
-# TOTAL: 22771
+# TOTAL: 22768
 # DESC: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 
 HOST-SUFFIX,000dn.com,REJECT
@@ -3027,6 +3027,7 @@ HOST-SUFFIX,bux1le001.com,REJECT
 HOST-SUFFIX,buxflow.com,REJECT
 HOST-SUFFIX,buy.toutiao.com,REJECT
 HOST-SUFFIX,buyflood.com,REJECT
+HOST-SUFFIX,buyimg.bianxianmao.com,REJECT
 HOST-SUFFIX,buyorselltnhomes.com,REJECT
 HOST-SUFFIX,buysellads.com,REJECT
 HOST-SUFFIX,buysellads.net,REJECT
@@ -3335,7 +3336,6 @@ HOST-SUFFIX,channeladvisor.com,REJECT
 HOST-SUFFIX,chaojilamei.cn,REJECT
 HOST-SUFFIX,chaoxianleather.ltd,REJECT
 HOST-SUFFIX,chargeplatform.com,REJECT
-HOST-SUFFIX,charltonmedia.com,REJECT
 HOST-SUFFIX,chart.dk,REJECT
 HOST-SUFFIX,chartaca.com,REJECT
 HOST-SUFFIX,chartbeat.com,REJECT
@@ -4791,7 +4791,6 @@ HOST-SUFFIX,dz4ad.com,REJECT
 HOST-SUFFIX,dzais.com,REJECT
 HOST-SUFFIX,dzdkw9.cn,REJECT
 HOST-SUFFIX,dzhss.cn,REJECT
-HOST-SUFFIX,dzjzg.com,REJECT
 HOST-SUFFIX,dzl.baidu.com,REJECT
 HOST-SUFFIX,dzz.wankeedu.com,REJECT
 HOST-SUFFIX,e-contenta.com,REJECT
@@ -7433,7 +7432,6 @@ HOST-SUFFIX,lddt.de,REJECT
 HOST-SUFFIX,lduhtrp.net,REJECT
 HOST-SUFFIX,ldy.350.com,REJECT
 HOST-SUFFIX,ldy.adqku.cn,REJECT
-HOST-SUFFIX,le4le.com,REJECT
 HOST-SUFFIX,leabd.douguo.com,REJECT
 HOST-SUFFIX,lead-123.com,REJECT
 HOST-SUFFIX,lead.im,REJECT
@@ -15616,7 +15614,6 @@ HOST,chainads.io,REJECT
 HOST,changmaoxinjzo.com,REJECT
 HOST,chaoxianleather.ltd,REJECT
 HOST,chargeplatform.com,REJECT
-HOST,charltonmedia.com,REJECT
 HOST,chart.dk,REJECT
 HOST,chartaca.com,REJECT
 HOST,chatinator.com,REJECT
