@@ -1,12 +1,12 @@
 # NAME: Splash-Killer
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-09-19 06:26:25 (UTC+8)
+# UPDATED: 2026-09-20 06:16:39 (UTC+8)
 # POLICY: REJECT
 # HOST: 55
-# HOST-SUFFIX: 384
+# HOST-SUFFIX: 385
 # HOST-KEYWORD: 29
-# TOTAL: 468
+# TOTAL: 469
 # DESC: 开屏广告专项：覆盖穿山甲/广点通/百青藤/快手/阿里妈妈/AdMob/AppLovin 等主流 SDK
 
 HOST-SUFFIX,24x7adservice.com,REJECT
@@ -223,6 +223,7 @@ HOST-SUFFIX,log.isnssdk.com,REJECT
 HOST-SUFFIX,log.node.minigame.qq.com,REJECT
 HOST-SUFFIX,log.snssdk.com,REJECT
 HOST-SUFFIX,log3-normal-hl.toutiaoapi.com,REJECT
+HOST-SUFFIX,logs.game.qq.com,REJECT
 HOST-SUFFIX,logs.ironsrc.mobi,REJECT
 HOST-SUFFIX,lucentanxiouslyfleeting.com,REJECT
 HOST-SUFFIX,luntanx18.info,REJECT
