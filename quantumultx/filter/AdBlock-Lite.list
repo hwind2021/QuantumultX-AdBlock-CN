@@ -1,14 +1,14 @@
 # NAME: AdBlock-Lite
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-09-28 06:55:35 (UTC+8)
+# UPDATED: 2026-09-29 08:17:54 (UTC+8)
 # POLICY: REJECT
-# HOST: 8736
-# HOST-SUFFIX: 13748
+# HOST: 8729
+# HOST-SUFFIX: 13741
 # HOST-KEYWORD: 56
 # IP-CIDR: 222
 # IP6-CIDR: 4
-# TOTAL: 22766
+# TOTAL: 22752
 # DESC: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 
 HOST-SUFFIX,000dn.com,REJECT
@@ -276,7 +276,6 @@ HOST-SUFFIX,360640.com,REJECT
 HOST-SUFFIX,360ads.com,REJECT
 HOST-SUFFIX,360i.com,REJECT
 HOST-SUFFIX,360in.com,REJECT
-HOST-SUFFIX,360installer.com,REJECT
 HOST-SUFFIX,360jiaquan.com,REJECT
 HOST-SUFFIX,360protected.com,REJECT
 HOST-SUFFIX,360shopping.com.cn,REJECT
@@ -2685,7 +2684,6 @@ HOST-SUFFIX,berush.com,REJECT
 HOST-SUFFIX,besocial.online,REJECT
 HOST-SUFFIX,best-top.de,REJECT
 HOST-SUFFIX,best-top.ro,REJECT
-HOST-SUFFIX,bestcasinopartner.com,REJECT
 HOST-SUFFIX,bestcoinsignals.com,REJECT
 HOST-SUFFIX,bestcontentcompany.top,REJECT
 HOST-SUFFIX,bestcontentfood.top,REJECT
@@ -2924,7 +2922,6 @@ HOST-SUFFIX,branch.io,REJECT
 HOST-SUFFIX,brand-display.com,REJECT
 HOST-SUFFIX,brand.net,REJECT
 HOST-SUFFIX,brand.sogou.com,REJECT
-HOST-SUFFIX,brandads.net,REJECT
 HOST-SUFFIX,brandaffinity.net,REJECT
 HOST-SUFFIX,brandclik.com,REJECT
 HOST-SUFFIX,brandlock.io,REJECT
@@ -7021,7 +7018,6 @@ HOST-SUFFIX,jeetyetmedia.com,REJECT
 HOST-SUFFIX,jellyfish.pandora.xiaomi.com,REJECT
 HOST-SUFFIX,jesgoo.com,REJECT
 HOST-SUFFIX,jewishcontentnetwork.com,REJECT
-HOST-SUFFIX,jf71qh5v14.com,REJECT
 HOST-SUFFIX,jfm4.pop.baofeng.net,REJECT
 HOST-SUFFIX,jg1668.com,REJECT
 HOST-SUFFIX,jhbsq.cn,REJECT
@@ -8237,7 +8233,6 @@ HOST-SUFFIX,maomaotang.com,REJECT
 HOST-SUFFIX,mapi.m.jd.com,REJECT
 HOST-SUFFIX,maploco.com,REJECT
 HOST-SUFFIX,mapmyuser.com,REJECT
-HOST-SUFFIX,marapcana.online,REJECT
 HOST-SUFFIX,marbil24.co.za,REJECT
 HOST-SUFFIX,marfeel.com,REJECT
 HOST-SUFFIX,marimedia.com,REJECT
@@ -9785,7 +9780,6 @@ HOST-SUFFIX,polluxnetwork.com,REJECT
 HOST-SUFFIX,polyad.net,REJECT
 HOST-SUFFIX,polydarth.com,REJECT
 HOST-SUFFIX,polymorphicads.jp,REJECT
-HOST-SUFFIX,poolgmsd.com,REJECT
 HOST-SUFFIX,pop.code.poyang.cn,REJECT
 HOST-SUFFIX,pop.sjk.ijinshan.com,REJECT
 HOST-SUFFIX,pop.uusee.com,REJECT
@@ -12458,7 +12452,6 @@ HOST-SUFFIX,unrulymedia.com,REJECT
 HOST-SUFFIX,untidyrice.com,REJECT
 HOST-SUFFIX,untitled.dwstatic.com,REJECT
 HOST-SUFFIX,uo.jstaogu.com,REJECT
-HOST-SUFFIX,uod2quk646.com,REJECT
 HOST-SUFFIX,uodoo.com,REJECT
 HOST-SUFFIX,uoldid.ru,REJECT
 HOST-SUFFIX,up-rank.com,REJECT
@@ -13876,7 +13869,6 @@ HOST,35kds.com,REJECT
 HOST,360ads.com,REJECT
 HOST,360i.com,REJECT
 HOST,360in.com,REJECT
-HOST,360installer.com,REJECT
 HOST,360protected.com,REJECT
 HOST,360tag.net,REJECT
 HOST,360yield.com,REJECT
@@ -15197,7 +15189,6 @@ HOST,berush.com,REJECT
 HOST,besocial.online,REJECT
 HOST,best-top.de,REJECT
 HOST,best-top.ro,REJECT
-HOST,bestcasinopartner.com,REJECT
 HOST,bestcoinsignals.com,REJECT
 HOST,bestcontentcompany.top,REJECT
 HOST,bestcontentfood.top,REJECT
@@ -15373,7 +15364,6 @@ HOST,bpts.8111216.cn,REJECT
 HOST,brainient.com,REJECT
 HOST,brand-display.com,REJECT
 HOST,brand.net,REJECT
-HOST,brandads.net,REJECT
 HOST,brandaffinity.net,REJECT
 HOST,brandclik.com,REJECT
 HOST,brandlock.io,REJECT
@@ -18029,7 +18019,6 @@ HOST,jeeng.com,REJECT
 HOST,jeepyy.com,REJECT
 HOST,jeetyetmedia.com,REJECT
 HOST,jewishcontentnetwork.com,REJECT
-HOST,jf71qh5v14.com,REJECT
 HOST,jg1668.com,REJECT
 HOST,jhbsq.cn,REJECT
 HOST,jhqku.cn,REJECT
@@ -18858,7 +18847,6 @@ HOST,mangoads.net,REJECT
 HOST,manychat.com,REJECT
 HOST,maploco.com,REJECT
 HOST,mapmyuser.com,REJECT
-HOST,marapcana.online,REJECT
 HOST,marbil24.co.za,REJECT
 HOST,marfeel.com,REJECT
 HOST,marimedia.com,REJECT
@@ -19889,7 +19877,6 @@ HOST,polluxnetwork.com,REJECT
 HOST,polyad.net,REJECT
 HOST,polydarth.com,REJECT
 HOST,polymorphicads.jp,REJECT
-HOST,poolgmsd.com,REJECT
 HOST,pop3.fuxids.com,REJECT
 HOST,pop800.com,REJECT
 HOST,popads.media,REJECT
@@ -21710,7 +21697,6 @@ HOST,unityads.unitychina.cn,REJECT
 HOST,unrulymedia.com,REJECT
 HOST,untidyrice.com,REJECT
 HOST,uo.jstaogu.com,REJECT
-HOST,uod2quk646.com,REJECT
 HOST,up-rank.com,REJECT
 HOST,upapi.net,REJECT
 HOST,upliftsearch.com,REJECT
