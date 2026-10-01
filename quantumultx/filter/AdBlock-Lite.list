@@ -1,14 +1,14 @@
 # NAME: AdBlock-Lite
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-10-01 07:37:43 (UTC+8)
+# UPDATED: 2026-10-02 07:49:54 (UTC+8)
 # POLICY: REJECT
-# HOST: 8729
-# HOST-SUFFIX: 13741
+# HOST: 8730
+# HOST-SUFFIX: 13742
 # HOST-KEYWORD: 56
 # IP-CIDR: 222
 # IP6-CIDR: 4
-# TOTAL: 22752
+# TOTAL: 22754
 # DESC: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 
 HOST-SUFFIX,000dn.com,REJECT
@@ -11824,6 +11824,7 @@ HOST-SUFFIX,techain.baidu.com,REJECT
 HOST-SUFFIX,techkey.com.cn,REJECT
 HOST-SUFFIX,technical-service.net,REJECT
 HOST-SUFFIX,technoratimedia.com,REJECT
+HOST-SUFFIX,ted.dailymail.co.uk,REJECT
 HOST-SUFFIX,tedioustooth.com,REJECT
 HOST-SUFFIX,teensexgfs.com,REJECT
 HOST-SUFFIX,teinfo.wps.cn,REJECT
@@ -21280,6 +21281,7 @@ HOST,techain.baidu.com,REJECT
 HOST,techkey.com.cn,REJECT
 HOST,technical-service.net,REJECT
 HOST,technoratimedia.com,REJECT
+HOST,ted.dailymail.co.uk,REJECT
 HOST,tedioustooth.com,REJECT
 HOST,teensexgfs.com,REJECT
 HOST,teinfo.wps.cn,REJECT
