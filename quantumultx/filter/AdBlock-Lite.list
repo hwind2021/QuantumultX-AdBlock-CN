@@ -1,14 +1,14 @@
 # NAME: AdBlock-Lite
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-10-28 07:39:40 (UTC+8)
+# UPDATED: 2026-10-29 07:57:26 (UTC+8)
 # POLICY: REJECT
-# HOST: 8727
-# HOST-SUFFIX: 13730
+# HOST: 8710
+# HOST-SUFFIX: 13712
 # HOST-KEYWORD: 56
 # IP-CIDR: 222
 # IP6-CIDR: 4
-# TOTAL: 22739
+# TOTAL: 22704
 # DESC: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 
 HOST-SUFFIX,000dn.com,REJECT
@@ -788,7 +788,6 @@ HOST-SUFFIX,activity.tuifish.com,REJECT
 HOST-SUFFIX,activity.yuyiya.com,REJECT
 HOST-SUFFIX,actlog.dftoutiao.com,REJECT
 HOST-SUFFIX,actnx.com,REJECT
-HOST-SUFFIX,actpx.com,REJECT
 HOST-SUFFIX,actsdk.idreamsky.com,REJECT
 HOST-SUFFIX,actuallysheep.com,REJECT
 HOST-SUFFIX,acuityplatform.com,REJECT
@@ -1500,7 +1499,6 @@ HOST-SUFFIX,adsession.com,REJECT
 HOST-SUFFIX,adsettings.com,REJECT
 HOST-SUFFIX,adsfac.eu,REJECT
 HOST-SUFFIX,adsfac.net,REJECT
-HOST-SUFFIX,adsfac.us,REJECT
 HOST-SUFFIX,adsfactor.net,REJECT
 HOST-SUFFIX,adsfast.com,REJECT
 HOST-SUFFIX,adsfile.qq.com,REJECT
@@ -2476,7 +2474,6 @@ HOST-SUFFIX,baigm.com,REJECT
 HOST-SUFFIX,baimuyuan.com.cn,REJECT
 HOST-SUFFIX,baitaiad.com,REJECT
 HOST-SUFFIX,baizhu.cc,REJECT
-HOST-SUFFIX,baletingo.com,REJECT
 HOST-SUFFIX,balmoralmkt.com,REJECT
 HOST-SUFFIX,balvalur.com,REJECT
 HOST-SUFFIX,bam-x.com,REJECT
@@ -2955,7 +2952,6 @@ HOST-SUFFIX,browserpusher.com,REJECT
 HOST-SUFFIX,browserr.top,REJECT
 HOST-SUFFIX,browsers.support,REJECT
 HOST-SUFFIX,browsiprod.com,REJECT
-HOST-SUFFIX,brtsumthree.com,REJECT
 HOST-SUFFIX,brucelead.com,REJECT
 HOST-SUFFIX,bruceleadx1.com,REJECT
 HOST-SUFFIX,bs.5442.com,REJECT
@@ -4262,7 +4258,6 @@ HOST-SUFFIX,dampdock.com,REJECT
 HOST-SUFFIX,danangmo.cn,REJECT
 HOST-SUFFIX,danorenius.com,REJECT
 HOST-SUFFIX,danpinwu.com,REJECT
-HOST-SUFFIX,danzhallfes.com,REJECT
 HOST-SUFFIX,daoyoudao.com,REJECT
 HOST-SUFFIX,dapaogg.xyz,REJECT
 HOST-SUFFIX,dapper.net,REJECT
@@ -4731,7 +4726,6 @@ HOST-SUFFIX,du4rq1xqh3i1k.cloudfront.net,REJECT
 HOST-SUFFIX,dualstack-logs.amap.com,REJECT
 HOST-SUFFIX,dualstack.adsame-1421766300.ap-southeast-1.elb.amazonaws.com,REJECT
 HOST-SUFFIX,duanat.com,REJECT
-HOST-SUFFIX,dubvacasept.com,REJECT
 HOST-SUFFIX,dumedia.ru,REJECT
 HOST-SUFFIX,dunhilltraveldeals.com,REJECT
 HOST-SUFFIX,duobaoqj.com,REJECT
@@ -5430,7 +5424,6 @@ HOST-SUFFIX,fisari.com,REJECT
 HOST-SUFFIX,fix.hpplay.cn,REJECT
 HOST-SUFFIX,fixcounter.com,REJECT
 HOST-SUFFIX,fixionmedia.com,REJECT
-HOST-SUFFIX,fixpass.net,REJECT
 HOST-SUFFIX,fjdvzx.cn,REJECT
 HOST-SUFFIX,fjmailia.com,REJECT
 HOST-SUFFIX,fjs043.cn,REJECT
@@ -6875,7 +6868,6 @@ HOST-SUFFIX,ipro.com,REJECT
 HOST-SUFFIX,iproanalytics.com,REJECT
 HOST-SUFFIX,ipromote.com,REJECT
 HOST-SUFFIX,iprotrk.com,REJECT
-HOST-SUFFIX,ipsowrite.com,REJECT
 HOST-SUFFIX,iptvdeals.com,REJECT
 HOST-SUFFIX,ipv6monitoring.eu,REJECT
 HOST-SUFFIX,iqdata.ai,REJECT
@@ -7170,7 +7162,6 @@ HOST-SUFFIX,jsm.39yst.com,REJECT
 HOST-SUFFIX,jsmentry.com,REJECT
 HOST-SUFFIX,jsmjmp.com,REJECT
 HOST-SUFFIX,jsqmt.qq.com,REJECT
-HOST-SUFFIX,jsretra.com,REJECT
 HOST-SUFFIX,jss.haoxyx.com,REJECT
 HOST-SUFFIX,jssearch.net,REJECT
 HOST-SUFFIX,jstracker.com,REJECT
@@ -10376,7 +10367,6 @@ HOST-SUFFIX,refersion.com,REJECT
 HOST-SUFFIX,refinedads.com,REJECT
 HOST-SUFFIX,reftagger.com,REJECT
 HOST-SUFFIX,registration.presonus.com,REJECT
-HOST-SUFFIX,regulationprivilegescan.top,REJECT
 HOST-SUFFIX,reichelcormier.bid,REJECT
 HOST-SUFFIX,reinvigorate.net,REJECT
 HOST-SUFFIX,reitingi.lv,REJECT
@@ -11117,7 +11107,6 @@ HOST-SUFFIX,sm2.todgo.com,REJECT
 HOST-SUFFIX,smaato.com,REJECT
 HOST-SUFFIX,smaato.net,REJECT
 HOST-SUFFIX,smac-ssp.com,REJECT
-HOST-SUFFIX,smaclick.com,REJECT
 HOST-SUFFIX,smadex.com,REJECT
 HOST-SUFFIX,smallseotools.com,REJECT
 HOST-SUFFIX,smart-789.kakamobi.cn,REJECT
@@ -11620,7 +11609,6 @@ HOST-SUFFIX,svtrd.com,REJECT
 HOST-SUFFIX,svyksa.info,REJECT
 HOST-SUFFIX,sw.mobile.sogou.com,REJECT
 HOST-SUFFIX,swa.gtimg.com,REJECT
-HOST-SUFFIX,swan-swan-goose.com,REJECT
 HOST-SUFFIX,swappdl.duoyi.com,REJECT
 HOST-SUFFIX,swc.weather.com.cn,REJECT
 HOST-SUFFIX,swe.shylsp.com,REJECT
@@ -11768,7 +11756,6 @@ HOST-SUFFIX,taplytics.com,REJECT
 HOST-SUFFIX,tapnative.com,REJECT
 HOST-SUFFIX,taps.io,REJECT
 HOST-SUFFIX,tapstream.com,REJECT
-HOST-SUFFIX,tardangro.com,REJECT
 HOST-SUFFIX,target.vivid.com,REJECT
 HOST-SUFFIX,targetedmedia.com.cn,REJECT
 HOST-SUFFIX,targetfuel.com,REJECT
@@ -11899,7 +11886,6 @@ HOST-SUFFIX,thisiswaldo.com,REJECT
 HOST-SUFFIX,thli43.cn,REJECT
 HOST-SUFFIX,thoughtleadr.com,REJECT
 HOST-SUFFIX,thrtle.com,REJECT
-HOST-SUFFIX,thurnflfant.com,REJECT
 HOST-SUFFIX,thztv.net,REJECT
 HOST-SUFFIX,tiads.time.com,REJECT
 HOST-SUFFIX,tianhuicun.com.cn,REJECT
@@ -12569,7 +12555,6 @@ HOST-SUFFIX,v68.ink,REJECT
 HOST-SUFFIX,v7.shaoyumuye.com,REJECT
 HOST-SUFFIX,va-endpoint.com,REJECT
 HOST-SUFFIX,va.gxpan.cn,REJECT
-HOST-SUFFIX,vacaneedasap.com,REJECT
 HOST-SUFFIX,vacwrite.com,REJECT
 HOST-SUFFIX,val.api.youku.com,REJECT
 HOST-SUFFIX,val.atm.youku.com,REJECT
@@ -13040,7 +13025,6 @@ HOST-SUFFIX,wigetmedia.com,REJECT
 HOST-SUFFIX,wikia-beacon.com,REJECT
 HOST-SUFFIX,wildhookups.com,REJECT
 HOST-SUFFIX,wildmatch.com,REJECT
-HOST-SUFFIX,wildxxxparties.com,REJECT
 HOST-SUFFIX,wimaxnetworks.cn,REJECT
 HOST-SUFFIX,win-stock.com.cn,REJECT
 HOST-SUFFIX,winads.cn,REJECT
@@ -13508,7 +13492,6 @@ HOST-SUFFIX,yongv.com,REJECT
 HOST-SUFFIX,yongyuelm.com,REJECT
 HOST-SUFFIX,yoochoose.net,REJECT
 HOST-SUFFIX,yooli.com,REJECT
-HOST-SUFFIX,yoshatia.com,REJECT
 HOST-SUFFIX,yottos.com,REJECT
 HOST-SUFFIX,you1ad.com,REJECT
 HOST-SUFFIX,youborafds01.com,REJECT
@@ -13576,7 +13559,6 @@ HOST-SUFFIX,yuxyz.com,REJECT
 HOST-SUFFIX,yuyue008.cn,REJECT
 HOST-SUFFIX,yvmads.com,REJECT
 HOST-SUFFIX,yvoria.com,REJECT
-HOST-SUFFIX,yvzgazds6d.com,REJECT
 HOST-SUFFIX,yw78.cn,REJECT
 HOST-SUFFIX,yx1.managershare.com,REJECT
 HOST-SUFFIX,yxgfcj.com,REJECT
@@ -14086,7 +14068,6 @@ HOST,activeprospects.com,REJECT
 HOST,activity.browser.intl.miui.com,REJECT
 HOST,activity.clotfun.xyz,REJECT
 HOST,actnx.com,REJECT
-HOST,actpx.com,REJECT
 HOST,actuallysheep.com,REJECT
 HOST,acxiomapac.com,REJECT
 HOST,ad-back.net,REJECT
@@ -14445,7 +14426,6 @@ HOST,adsession.com,REJECT
 HOST,adsettings.com,REJECT
 HOST,adsfac.eu,REJECT
 HOST,adsfac.net,REJECT
-HOST,adsfac.us,REJECT
 HOST,adsfast.com,REJECT
 HOST,adsforallmedia.com,REJECT
 HOST,adshack.com,REJECT
@@ -15073,7 +15053,6 @@ HOST,baiducdncmn.inter.iqiyi.com,REJECT
 HOST,baimuyuan.com.cn,REJECT
 HOST,baitaiad.com,REJECT
 HOST,baizhu.cc,REJECT
-HOST,baletingo.com,REJECT
 HOST,balmoralmkt.com,REJECT
 HOST,balvalur.com,REJECT
 HOST,bam-x.com,REJECT
@@ -15386,7 +15365,6 @@ HOST,browserpusher.com,REJECT
 HOST,browserr.top,REJECT
 HOST,browsers.support,REJECT
 HOST,browsiprod.com,REJECT
-HOST,brtsumthree.com,REJECT
 HOST,bruceleadx1.com,REJECT
 HOST,bs.csshq.com.cn,REJECT
 HOST,bs.lamrd.cn,REJECT
@@ -16247,7 +16225,6 @@ HOST,dallavel.com,REJECT
 HOST,dam.zhqryw.cn,REJECT
 HOST,damdoor.com,REJECT
 HOST,danorenius.com,REJECT
-HOST,danzhallfes.com,REJECT
 HOST,dapaogg.xyz,REJECT
 HOST,dapper.net,REJECT
 HOST,dapxl.com,REJECT
@@ -16524,7 +16501,6 @@ HOST,du.biqukan.com,REJECT
 HOST,du01z5hhojprz.cloudfront.net,REJECT
 HOST,du2uh7rq0r0d3.cloudfront.net,REJECT
 HOST,du4rq1xqh3i1k.cloudfront.net,REJECT
-HOST,dubvacasept.com,REJECT
 HOST,dunhilltraveldeals.com,REJECT
 HOST,duoduo.net,REJECT
 HOST,duomilm.com,REJECT
@@ -17024,7 +17000,6 @@ HOST,fisari.com,REJECT
 HOST,fix.hpplay.cn,REJECT
 HOST,fixcounter.com,REJECT
 HOST,fixionmedia.com,REJECT
-HOST,fixpass.net,REJECT
 HOST,fjdvzx.cn,REJECT
 HOST,fjs043.cn,REJECT
 HOST,fjs056.cn,REJECT
@@ -17934,7 +17909,6 @@ HOST,ipro.com,REJECT
 HOST,iproanalytics.com,REJECT
 HOST,ipromote.com,REJECT
 HOST,iprotrk.com,REJECT
-HOST,ipsowrite.com,REJECT
 HOST,iptvdeals.com,REJECT
 HOST,ipv6monitoring.eu,REJECT
 HOST,iqdata.ai,REJECT
@@ -18087,7 +18061,6 @@ HOST,jsjs.jbzj.com,REJECT
 HOST,jsjs.pro,REJECT
 HOST,jsmentry.com,REJECT
 HOST,jsmjmp.com,REJECT
-HOST,jsretra.com,REJECT
 HOST,jss.haoxyx.com,REJECT
 HOST,jssearch.net,REJECT
 HOST,jstracker.com,REJECT
@@ -20783,7 +20756,6 @@ HOST,slingpic.com,REJECT
 HOST,slogantrend.de,REJECT
 HOST,slopeaota.com,REJECT
 HOST,smac-ssp.com,REJECT
-HOST,smaclick.com,REJECT
 HOST,smadex.com,REJECT
 HOST,smallseotools.com,REJECT
 HOST,smart-789.kakamobi.cn,REJECT
@@ -21140,7 +21112,6 @@ HOST,svip.xsmy2.cn,REJECT
 HOST,svr-prc-01.com,REJECT
 HOST,svtrd.com,REJECT
 HOST,svyksa.info,REJECT
-HOST,swan-swan-goose.com,REJECT
 HOST,swc.weather.com.cn,REJECT
 HOST,swe.shylsp.com,REJECT
 HOST,sweetmedia.org,REJECT
@@ -21231,7 +21202,6 @@ HOST,tapinfluence.com,REJECT
 HOST,tapnative.com,REJECT
 HOST,taps.io,REJECT
 HOST,tapstream.com,REJECT
-HOST,tardangro.com,REJECT
 HOST,target.vivid.com,REJECT
 HOST,targetfuel.com,REJECT
 HOST,targetingnow.com,REJECT
@@ -21326,7 +21296,6 @@ HOST,thirdrespect.com,REJECT
 HOST,thiscdn.com,REJECT
 HOST,thisiswaldo.com,REJECT
 HOST,thrtle.com,REJECT
-HOST,thurnflfant.com,REJECT
 HOST,tianhuicun.com.cn,REJECT
 HOST,tianji520.cn,REJECT
 HOST,tianjinblg.com,REJECT
@@ -21765,7 +21734,6 @@ HOST,v3cdn.net,REJECT
 HOST,v68.ink,REJECT
 HOST,v7.shaoyumuye.com,REJECT
 HOST,va-endpoint.com,REJECT
-HOST,vacaneedasap.com,REJECT
 HOST,vacwrite.com,REJECT
 HOST,valatm.cp12.wasu.tv,REJECT
 HOST,vali-g1.cp31.ott.cibntv.net,REJECT
@@ -22097,7 +22065,6 @@ HOST,wigetmedia.com,REJECT
 HOST,wikia-beacon.com,REJECT
 HOST,wildhookups.com,REJECT
 HOST,wildmatch.com,REJECT
-HOST,wildxxxparties.com,REJECT
 HOST,wimaxnetworks.cn,REJECT
 HOST,winbuyer.com,REJECT
 HOST,winitout.com,REJECT
@@ -22334,7 +22301,6 @@ HOST,yoc-adserver.com,REJECT
 HOST,yomeno.xyz,REJECT
 HOST,yomob.com.cn,REJECT
 HOST,yoochoose.net,REJECT
-HOST,yoshatia.com,REJECT
 HOST,yottos.com,REJECT
 HOST,youborafds01.com,REJECT
 HOST,youboranqs01.com,REJECT
@@ -22366,7 +22332,6 @@ HOST,yuppads.com,REJECT
 HOST,yurivideo.com,REJECT
 HOST,yvmads.com,REJECT
 HOST,yvoria.com,REJECT
-HOST,yvzgazds6d.com,REJECT
 HOST,yw78.cn,REJECT
 HOST,yxyhtea.com,REJECT
 HOST,yy32.com,REJECT

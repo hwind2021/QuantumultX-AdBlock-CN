@@ -1,12 +1,12 @@
 # NAME: Splash-Killer
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-10-28 07:39:40 (UTC+8)
+# UPDATED: 2026-10-29 07:57:26 (UTC+8)
 # POLICY: REJECT
 # HOST: 55
-# HOST-SUFFIX: 389
+# HOST-SUFFIX: 384
 # HOST-KEYWORD: 29
-# TOTAL: 473
+# TOTAL: 468
 # DESC: 开屏广告专项：覆盖穿山甲/广点通/百青藤/快手/阿里妈妈/AdMob/AppLovin 等主流 SDK
 
 HOST-SUFFIX,24x7adservice.com,REJECT
@@ -163,7 +163,6 @@ HOST-SUFFIX,gdtimg.com,REJECT
 HOST-SUFFIX,gdtqq.cn,REJECT
 HOST-SUFFIX,gdtrbrsyziwmw.website,REJECT
 HOST-SUFFIX,gdtsxk.dedoles.pl,REJECT
-HOST-SUFFIX,gdttmehgfwawc.space,REJECT
 HOST-SUFFIX,gecko-hl.snssdk.com,REJECT
 HOST-SUFFIX,gecko-lq.snssdk.com,REJECT
 HOST-SUFFIX,gecko.snssdk.com,REJECT
@@ -307,7 +306,6 @@ HOST-SUFFIX,quatanxuan2022.com,REJECT
 HOST-SUFFIX,rsgdtlpixkack.site,REJECT
 HOST-SUFFIX,rtlog.isnssdk.com,REJECT
 HOST-SUFFIX,s-adashx.ut.uc.cn,REJECT
-HOST-SUFFIX,s-adashx.ut.youku.com,REJECT
 HOST-SUFFIX,sdfp.snssdk.com,REJECT
 HOST-SUFFIX,sdgdtz.cn,REJECT
 HOST-SUFFIX,sdk.mobads.adwangmai.com,REJECT
@@ -382,17 +380,14 @@ HOST-SUFFIX,uyjmbaiogdtkgwt.com,REJECT
 HOST-SUFFIX,v6-adashx.ut.amap.com,REJECT
 HOST-SUFFIX,v6-adashx.ut.ele.me,REJECT
 HOST-SUFFIX,v6-adashx.ut.taobao.com,REJECT
-HOST-SUFFIX,v6-adashx.ut.youku.com,REJECT
 HOST-SUFFIX,vas-hl-x.snssdk.com,REJECT
 HOST-SUFFIX,video-cn.snssdk.com,REJECT
 HOST-SUFFIX,visit-server.inmobi-choice.io,REJECT
 HOST-SUFFIX,vtwqzbrohcgdt.online,REJECT
 HOST-SUFFIX,vungle.cn,REJECT
 HOST-SUFFIX,vungle.com,REJECT
-HOST-SUFFIX,wiiqqxgsgdtdh.space,REJECT
 HOST-SUFFIX,wlog.kuaishou.com,REJECT
 HOST-SUFFIX,wxwdpvolofgdt.site,REJECT
-HOST-SUFFIX,xhfewaybklgdt.site,REJECT
 HOST-SUFFIX,xladapi.izuiyou.com,REJECT
 HOST-SUFFIX,xlog.snssdk.com,REJECT
 HOST-SUFFIX,yeszrgtanxjup.website,REJECT
