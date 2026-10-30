@@ -1,14 +1,14 @@
 # NAME: AdBlock-Lite
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-10-30 07:53:11 (UTC+8)
+# UPDATED: 2026-10-31 07:34:12 (UTC+8)
 # POLICY: REJECT
-# HOST: 8710
-# HOST-SUFFIX: 13712
+# HOST: 8706
+# HOST-SUFFIX: 13710
 # HOST-KEYWORD: 56
 # IP-CIDR: 222
 # IP6-CIDR: 4
-# TOTAL: 22704
+# TOTAL: 22698
 # DESC: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 
 HOST-SUFFIX,000dn.com,REJECT
@@ -3234,6 +3234,7 @@ HOST-SUFFIX,cdgfa.ifeng.com,REJECT
 HOST-SUFFIX,cdhoc.piyaji.cn,REJECT
 HOST-SUFFIX,cdn-ads.oss-cn-shanghai.aliyuncs.com,REJECT
 HOST-SUFFIX,cdn-net.com,REJECT
+HOST-SUFFIX,cdn-settings.segment.com,REJECT
 HOST-SUFFIX,cdn.0i-i0.com,REJECT
 HOST-SUFFIX,cdn.5bong.com,REJECT
 HOST-SUFFIX,cdn.810236.com,REJECT
@@ -4282,7 +4283,6 @@ HOST-SUFFIX,datacoral.com,REJECT
 HOST-SUFFIX,datacoral.io,REJECT
 HOST-SUFFIX,datado.me,REJECT
 HOST-SUFFIX,datadoghq-browser-agent.com,REJECT
-HOST-SUFFIX,datadome.co,REJECT
 HOST-SUFFIX,datafeedfile.com,REJECT
 HOST-SUFFIX,datam.com,REJECT
 HOST-SUFFIX,datamind.ru,REJECT
@@ -5127,7 +5127,6 @@ HOST-SUFFIX,engine64.com,REJECT
 HOST-SUFFIX,enquisite.com,REJECT
 HOST-SUFFIX,enquoted.com,REJECT
 HOST-SUFFIX,ens.nzz.ch,REJECT
-HOST-SUFFIX,ensighten.com,REJECT
 HOST-SUFFIX,ent1.12584.cn,REJECT
 HOST-SUFFIX,enter-system.com,REJECT
 HOST-SUFFIX,entrecard.s3.amazonaws.com,REJECT
@@ -5715,7 +5714,6 @@ HOST-SUFFIX,gdyn.cnn.com,REJECT
 HOST-SUFFIX,geakr.com,REJECT
 HOST-SUFFIX,geistm.com,REJECT
 HOST-SUFFIX,geiyujieda.com,REJECT
-HOST-SUFFIX,gemius.pl,REJECT
 HOST-SUFFIX,gen.alicdn.com,REJECT
 HOST-SUFFIX,genecute.com,REJECT
 HOST-SUFFIX,generaltracking.de,REJECT
@@ -7539,7 +7537,6 @@ HOST-SUFFIX,lishi.yxbao.com,REJECT
 HOST-SUFFIX,lishi1.yxbao.com,REJECT
 HOST-SUFFIX,list.z.qingting.fm,REJECT
 HOST-SUFFIX,listlog.baofeng.net,REJECT
-HOST-SUFFIX,litix.io,REJECT
 HOST-SUFFIX,littlebee.site,REJECT
 HOST-SUFFIX,liufenghua.com,REJECT
 HOST-SUFFIX,liuguoyu.wang,REJECT
@@ -8597,6 +8594,7 @@ HOST-SUFFIX,mobgi.com,REJECT
 HOST-SUFFIX,mobifobi.com,REJECT
 HOST-SUFFIX,mobile-10.com,REJECT
 HOST-SUFFIX,mobile-pubt.ele.me,REJECT
+HOST-SUFFIX,mobile-service.segment.com,REJECT
 HOST-SUFFIX,mobile.banzai.it,REJECT
 HOST-SUFFIX,mobile.pipe.aria.microsoft.com,REJECT
 HOST-SUFFIX,mobilead.kuwo.cn,REJECT
@@ -8994,6 +8992,7 @@ HOST-SUFFIX,nexstep.zdworks.com,REJECT
 HOST-SUFFIX,nextlnk9.com,REJECT
 HOST-SUFFIX,nextoptim.com,REJECT
 HOST-SUFFIX,nextstat.com,REJECT
+HOST-SUFFIX,nexus.ensighten.com,REJECT
 HOST-SUFFIX,nexus.officeapps.live.com,REJECT
 HOST-SUFFIX,nexusrules.officeapps.live.com,REJECT
 HOST-SUFFIX,nfdnserror1.wo.com.cn,REJECT
@@ -9223,7 +9222,6 @@ HOST-SUFFIX,omni-ads.com,REJECT
 HOST-SUFFIX,omniconvert.com,REJECT
 HOST-SUFFIX,omnikool.discovery.com,REJECT
 HOST-SUFFIX,omnitagjs.com,REJECT
-HOST-SUFFIX,omtrdc.net,REJECT
 HOST-SUFFIX,omynews.net,REJECT
 HOST-SUFFIX,on-line.lv,REJECT
 HOST-SUFFIX,on-push.com,REJECT
@@ -16244,7 +16242,6 @@ HOST,datacoral.com,REJECT
 HOST,datacoral.io,REJECT
 HOST,datado.me,REJECT
 HOST,datadoghq-browser-agent.com,REJECT
-HOST,datadome.co,REJECT
 HOST,datafeedfile.com,REJECT
 HOST,datam.com,REJECT
 HOST,datamind.ru,REJECT
@@ -16792,7 +16789,6 @@ HOST,engine212.com,REJECT
 HOST,engine64.com,REJECT
 HOST,enquisite.com,REJECT
 HOST,enquoted.com,REJECT
-HOST,ensighten.com,REJECT
 HOST,enter-system.com,REJECT
 HOST,entrecard.s3.amazonaws.com,REJECT
 HOST,enviousshape.com,REJECT
@@ -17192,7 +17188,6 @@ HOST,gdpr.studybreakmedia.com,REJECT
 HOST,gdxxb.com,REJECT
 HOST,geakr.com,REJECT
 HOST,geistm.com,REJECT
-HOST,gemius.pl,REJECT
 HOST,genecute.com,REJECT
 HOST,generaltracking.de,REJECT
 HOST,genericlink.com,REJECT
@@ -18327,7 +18322,6 @@ HOST,liqwid.net,REJECT
 HOST,lishi.yxbao.com,REJECT
 HOST,lishi1.yxbao.com,REJECT
 HOST,list.z.qingting.fm,REJECT
-HOST,litix.io,REJECT
 HOST,littlebee.site,REJECT
 HOST,liufenghua.com,REJECT
 HOST,liuguoyu.wang,REJECT

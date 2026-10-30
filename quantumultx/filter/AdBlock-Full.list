@@ -1,14 +1,14 @@
 # NAME: AdBlock-Full
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-10-30 07:53:11 (UTC+8)
+# UPDATED: 2026-10-31 07:34:12 (UTC+8)
 # POLICY: REJECT
 # HOST: 16379
-# HOST-SUFFIX: 284166
+# HOST-SUFFIX: 284165
 # HOST-KEYWORD: 288
 # IP-CIDR: 504
 # IP6-CIDR: 4
-# TOTAL: 301341
+# TOTAL: 301340
 # DESC: 完整版：全量合并去重，拦截率最高但占用内存较多，建议高性能设备使用
 
 HOST-SUFFIX,0.avmarket.rs,REJECT
@@ -174861,7 +174861,6 @@ HOST-SUFFIX,plackfrowsy.top,REJECT
 HOST-SUFFIX,placksslaloms.help,REJECT
 HOST-SUFFIX,placodegnawers.guru,REJECT
 HOST-SUFFIX,placoidtobyman.com,REJECT
-HOST-SUFFIX,pladform.ru,REJECT
 HOST-SUFFIX,plagaegasping.cyou,REJECT
 HOST-SUFFIX,plageslegcamber.cyou,REJECT
 HOST-SUFFIX,plagosedroopy.shop,REJECT
