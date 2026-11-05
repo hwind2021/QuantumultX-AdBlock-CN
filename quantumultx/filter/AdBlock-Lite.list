@@ -1,14 +1,14 @@
 # NAME: AdBlock-Lite
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-11-04 08:31:04 (UTC+8)
+# UPDATED: 2026-11-05 08:48:58 (UTC+8)
 # POLICY: REJECT
-# HOST: 8706
-# HOST-SUFFIX: 13710
+# HOST: 8705
+# HOST-SUFFIX: 13709
 # HOST-KEYWORD: 56
 # IP-CIDR: 222
 # IP6-CIDR: 4
-# TOTAL: 22698
+# TOTAL: 22696
 # DESC: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 
 HOST-SUFFIX,000dn.com,REJECT
@@ -7429,7 +7429,6 @@ HOST-SUFFIX,leadintel.io,REJECT
 HOST-SUFFIX,leadintelligence.co.uk,REJECT
 HOST-SUFFIX,leadium.com,REJECT
 HOST-SUFFIX,leadlab.click,REJECT
-HOST-SUFFIX,leadlife.com,REJECT
 HOST-SUFFIX,leadmanagerfx.com,REJECT
 HOST-SUFFIX,leadmediapartners.com,REJECT
 HOST-SUFFIX,leadpages.co,REJECT
@@ -18235,7 +18234,6 @@ HOST,leadintel.io,REJECT
 HOST,leadintelligence.co.uk,REJECT
 HOST,leadium.com,REJECT
 HOST,leadlab.click,REJECT
-HOST,leadlife.com,REJECT
 HOST,leadmanagerfx.com,REJECT
 HOST,leadmediapartners.com,REJECT
 HOST,leadpages.co,REJECT
