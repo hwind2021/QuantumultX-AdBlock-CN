@@ -1,14 +1,14 @@
 # NAME: AdBlock-Lite
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-11-07 08:01:33 (UTC+8)
+# UPDATED: 2026-11-08 07:33:03 (UTC+8)
 # POLICY: REJECT
 # HOST: 8705
-# HOST-SUFFIX: 13709
+# HOST-SUFFIX: 13707
 # HOST-KEYWORD: 56
 # IP-CIDR: 222
 # IP6-CIDR: 4
-# TOTAL: 22696
+# TOTAL: 22694
 # DESC: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 
 HOST-SUFFIX,000dn.com,REJECT
@@ -4378,7 +4378,6 @@ HOST-SUFFIX,deliver.ifeng.com,REJECT
 HOST-SUFFIX,deliver.ptgncdn.com,REJECT
 HOST-SUFFIX,delivery-pc.wasu.cn,REJECT
 HOST-SUFFIX,delivery.dmkt-sp.jp,REJECT
-HOST-SUFFIX,delivery.playallvideos.com,REJECT
 HOST-SUFFIX,delivery.porn.com,REJECT
 HOST-SUFFIX,delivery.wasu.cn,REJECT
 HOST-SUFFIX,delivery51.com,REJECT
@@ -13201,7 +13200,6 @@ HOST-SUFFIX,xcycm.com,REJECT
 HOST-SUFFIX,xdcs-collector.ximalaya.com,REJECT
 HOST-SUFFIX,xdirectx.com,REJECT
 HOST-SUFFIX,xdrig.com,REJECT
-HOST-SUFFIX,xdyjt.com,REJECT
 HOST-SUFFIX,xe2c.com,REJECT
 HOST-SUFFIX,xfo.monesyy.com,REJECT
 HOST-SUFFIX,xfyjz.cn,REJECT
