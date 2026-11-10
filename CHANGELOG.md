@@ -1,5 +1,21 @@
 # 更新记录
 
+## 2026-11-10 10:37:56
+
+自动同步上游规则。主要产物规模：
+
+- `AdBlock-AntiHijack.list`：228 条
+- `AdBlock-Full.list`：303726 条
+- `AdBlock-Lite.list`：22694 条
+- `AdBlock-Privacy.list`：39918 条
+- `BlockHttpDNS.list`：62 条
+- `Splash-Killer.list`：469 条
+- `AdBlock-All.conf`：256 条
+- `AdBlock-Feed.conf`：108 条
+- `AdBlock-Script.conf`：36 条
+- `AdBlock-Splash.conf`：112 条
+
+
 ## 2026-11-09 07:33:33
 
 自动同步上游规则。主要产物规模：
