@@ -1,14 +1,14 @@
 # NAME: AdBlock-Lite
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-11-10 10:37:43 (UTC+8)
+# UPDATED: 2026-11-11 08:30:49 (UTC+8)
 # POLICY: REJECT
-# HOST: 8705
-# HOST-SUFFIX: 13707
+# HOST: 8696
+# HOST-SUFFIX: 13698
 # HOST-KEYWORD: 56
 # IP-CIDR: 222
 # IP6-CIDR: 4
-# TOTAL: 22694
+# TOTAL: 22676
 # DESC: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 
 HOST-SUFFIX,000dn.com,REJECT
@@ -1497,7 +1497,6 @@ HOST-SUFFIX,adserving.unibet.com,REJECT
 HOST-SUFFIX,adservingfactory.com,REJECT
 HOST-SUFFIX,adsession.com,REJECT
 HOST-SUFFIX,adsettings.com,REJECT
-HOST-SUFFIX,adsfac.eu,REJECT
 HOST-SUFFIX,adsfac.net,REJECT
 HOST-SUFFIX,adsfactor.net,REJECT
 HOST-SUFFIX,adsfast.com,REJECT
@@ -1678,7 +1677,6 @@ HOST-SUFFIX,advertjunction.com,REJECT
 HOST-SUFFIX,advertlets.com,REJECT
 HOST-SUFFIX,advertnative.com,REJECT
 HOST-SUFFIX,advertone.ru,REJECT
-HOST-SUFFIX,advertpay.net,REJECT
 HOST-SUFFIX,advertpay.vip.xunlei.com,REJECT
 HOST-SUFFIX,advertserve.com,REJECT
 HOST-SUFFIX,advertur.ru,REJECT
@@ -2274,7 +2272,6 @@ HOST-SUFFIX,asimov-win.settings.data.microsoft.com.akadns.net,REJECT
 HOST-SUFFIX,aso1.net,REJECT
 HOST-SUFFIX,asotrack1.fluentmobile.com,REJECT
 HOST-SUFFIX,asperencium.com,REJECT
-HOST-SUFFIX,aspignitean.com,REJECT
 HOST-SUFFIX,assetize.com,REJECT
 HOST-SUFFIX,assets.2343sdxs.com,REJECT
 HOST-SUFFIX,assets.cntdy.mobi,REJECT
@@ -5159,7 +5156,6 @@ HOST-SUFFIX,erate.co.il,REJECT
 HOST-SUFFIX,erebor.douban.com,REJECT
 HOST-SUFFIX,ereportz.com,REJECT
 HOST-SUFFIX,eresmas.net,REJECT
-HOST-SUFFIX,erniphiq.com,REJECT
 HOST-SUFFIX,ero-advertising.com,REJECT
 HOST-SUFFIX,eroadvertising.com,REJECT
 HOST-SUFFIX,erotikdating.com,REJECT
@@ -6283,7 +6279,6 @@ HOST-SUFFIX,hoptopboy.com,REJECT
 HOST-SUFFIX,hornymatches.com,REJECT
 HOST-SUFFIX,hornyspots.com,REJECT
 HOST-SUFFIX,horse-racing-affiliate-program.co.uk,REJECT
-HOST-SUFFIX,hortestoz.com,REJECT
 HOST-SUFFIX,hospitality-optimizer.com,REJECT
 HOST-SUFFIX,host-tracker.com,REJECT
 HOST-SUFFIX,hostave.net,REJECT
@@ -8589,7 +8584,6 @@ HOST-SUFFIX,mobclix.com,REJECT
 HOST-SUFFIX,mobday.com,REJECT
 HOST-SUFFIX,mobfox.com,REJECT
 HOST-SUFFIX,mobgi.com,REJECT
-HOST-SUFFIX,mobifobi.com,REJECT
 HOST-SUFFIX,mobile-10.com,REJECT
 HOST-SUFFIX,mobile-pubt.ele.me,REJECT
 HOST-SUFFIX,mobile-service.segment.com,REJECT
@@ -9062,9 +9056,7 @@ HOST-SUFFIX,node.cdntxt.com,REJECT
 HOST-SUFFIX,nonissue.com,REJECT
 HOST-SUFFIX,noowho.com,REJECT
 HOST-SUFFIX,nordicresearch.com,REJECT
-HOST-SUFFIX,noretia.com,REJECT
 HOST-SUFFIX,norma-external-collect.meizu.com,REJECT
-HOST-SUFFIX,normkela.com,REJECT
 HOST-SUFFIX,northstartravelmedia.com,REJECT
 HOST-SUFFIX,notice.game.xiaomi.com,REJECT
 HOST-SUFFIX,notice.iqiyi.com,REJECT
@@ -9841,7 +9833,6 @@ HOST-SUFFIX,predictivadvertising.com,REJECT
 HOST-SUFFIX,predictiveresponse.net,REJECT
 HOST-SUFFIX,premiumhdv.com,REJECT
 HOST-SUFFIX,premiumstats.xyz,REJECT
-HOST-SUFFIX,preonesetro.com,REJECT
 HOST-SUFFIX,prepareplanes.com,REJECT
 HOST-SUFFIX,pressly.com,REJECT
 HOST-SUFFIX,prfct.co,REJECT
@@ -14419,7 +14410,6 @@ HOST,adserving.unibet.com,REJECT
 HOST,adservingfactory.com,REJECT
 HOST,adsession.com,REJECT
 HOST,adsettings.com,REJECT
-HOST,adsfac.eu,REJECT
 HOST,adsfac.net,REJECT
 HOST,adsfast.com,REJECT
 HOST,adsforallmedia.com,REJECT
@@ -14536,7 +14526,6 @@ HOST,advertjunction.com,REJECT
 HOST,advertlets.com,REJECT
 HOST,advertnative.com,REJECT
 HOST,advertone.ru,REJECT
-HOST,advertpay.net,REJECT
 HOST,advertpay.vip.xunlei.com,REJECT
 HOST,advertserve.com,REJECT
 HOST,advertur.ru,REJECT
@@ -14906,7 +14895,6 @@ HOST,asimov-win.settings.data.microsoft.com.akadns.net,REJECT
 HOST,aso1.net,REJECT
 HOST,asotrack1.fluentmobile.com,REJECT
 HOST,asperencium.com,REJECT
-HOST,aspignitean.com,REJECT
 HOST,assetize.com,REJECT
 HOST,assets.cntdy.mobi,REJECT
 HOST,assoc-amazon.ca,REJECT
@@ -16810,7 +16798,6 @@ HOST,erabaru.net,REJECT
 HOST,erate.co.il,REJECT
 HOST,ereportz.com,REJECT
 HOST,eresmas.net,REJECT
-HOST,erniphiq.com,REJECT
 HOST,erotikdating.com,REJECT
 HOST,erovation.com,REJECT
 HOST,err.ifengcloud.ifeng.com,REJECT
@@ -17545,7 +17532,6 @@ HOST,hoptopboy.com,REJECT
 HOST,hornymatches.com,REJECT
 HOST,hornyspots.com,REJECT
 HOST,horse-racing-affiliate-program.co.uk,REJECT
-HOST,hortestoz.com,REJECT
 HOST,hospitality-optimizer.com,REJECT
 HOST,host-tracker.com,REJECT
 HOST,hostave.net,REJECT
@@ -19035,7 +19021,6 @@ HOST,mobalives.com,REJECT
 HOST,mobalyzer.net,REJECT
 HOST,mobappconfig.securities.eastmoney.com,REJECT
 HOST,mobday.com,REJECT
-HOST,mobifobi.com,REJECT
 HOST,mobile-10.com,REJECT
 HOST,mobile.banzai.it,REJECT
 HOST,mobile.pipe.aria.microsoft.com,REJECT
@@ -19374,9 +19359,7 @@ HOST,node.cdntxt.com,REJECT
 HOST,nonissue.com,REJECT
 HOST,noowho.com,REJECT
 HOST,nordicresearch.com,REJECT
-HOST,noretia.com,REJECT
 HOST,norma-external-collect.meizu.com,REJECT
-HOST,normkela.com,REJECT
 HOST,northstartravelmedia.com,REJECT
 HOST,notifadz.com,REJECT
 HOST,notifpush.com,REJECT
@@ -19889,7 +19872,6 @@ HOST,predictivadnetwork.com,REJECT
 HOST,predictiveresponse.net,REJECT
 HOST,premiumhdv.com,REJECT
 HOST,premiumstats.xyz,REJECT
-HOST,preonesetro.com,REJECT
 HOST,prepareplanes.com,REJECT
 HOST,pressly.com,REJECT
 HOST,prfct.co,REJECT
