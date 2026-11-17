@@ -1,14 +1,14 @@
 # NAME: AdBlock-Lite
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-11-16 07:53:40 (UTC+8)
+# UPDATED: 2026-11-17 10:51:31 (UTC+8)
 # POLICY: REJECT
-# HOST: 8696
-# HOST-SUFFIX: 13698
+# HOST: 8686
+# HOST-SUFFIX: 13686
 # HOST-KEYWORD: 56
 # IP-CIDR: 222
 # IP6-CIDR: 4
-# TOTAL: 22676
+# TOTAL: 22654
 # DESC: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 
 HOST-SUFFIX,000dn.com,REJECT
@@ -1299,6 +1299,7 @@ HOST-SUFFIX,adnuntius.com,REJECT
 HOST-SUFFIX,adnxs.com,REJECT
 HOST-SUFFIX,adnxs.net,REJECT
 HOST-SUFFIX,adnyg.com,REJECT
+HOST-SUFFIX,adnz.co,REJECT
 HOST-SUFFIX,adobe-dns-2.adobe.com,REJECT
 HOST-SUFFIX,adobe-dns-3.adobe.com,REJECT
 HOST-SUFFIX,adobe-dns.adobe.com,REJECT
@@ -1915,7 +1916,6 @@ HOST-SUFFIX,alert.autohome.com.cn,REJECT
 HOST-SUFFIX,alertme.news,REJECT
 HOST-SUFFIX,alerts.ndtv.com,REJECT
 HOST-SUFFIX,alerts.thedailystar.net,REJECT
-HOST-SUFFIX,alespeonor.com,REJECT
 HOST-SUFFIX,algopine.com,REJECT
 HOST-SUFFIX,alifixed.cn,REJECT
 HOST-SUFFIX,alikeaddition.com,REJECT
@@ -2659,7 +2659,6 @@ HOST-SUFFIX,belstat.com,REJECT
 HOST-SUFFIX,belstat.de,REJECT
 HOST-SUFFIX,belstat.fr,REJECT
 HOST-SUFFIX,belstat.nl,REJECT
-HOST-SUFFIX,beludicolor.com,REJECT
 HOST-SUFFIX,bench-life.me,REJECT
 HOST-SUFFIX,benchtag2.co,REJECT
 HOST-SUFFIX,benniuluntai.cn,REJECT
@@ -3199,7 +3198,6 @@ HOST-SUFFIX,cautiouscredit.com,REJECT
 HOST-SUFFIX,cb.baidu.cn,REJECT
 HOST-SUFFIX,cb.baidu.com,REJECT
 HOST-SUFFIX,cb.h5.coffeedak.cn,REJECT
-HOST-SUFFIX,cba-fed-igh.com,REJECT
 HOST-SUFFIX,cbdm.weathercn.com,REJECT
 HOST-SUFFIX,cbjg.cqnews.net,REJECT
 HOST-SUFFIX,cbjs.baidu.cn,REJECT
@@ -4484,9 +4482,6 @@ HOST-SUFFIX,distiltag.com,REJECT
 HOST-SUFFIX,distribeo.com,REJECT
 HOST-SUFFIX,districtm.ca,REJECT
 HOST-SUFFIX,districtm.io,REJECT
-HOST-SUFFIX,dit-dit-dot.com,REJECT
-HOST-SUFFIX,ditdotsol.com,REJECT
-HOST-SUFFIX,ditwrite.com,REJECT
 HOST-SUFFIX,divolution.com,REJECT
 HOST-SUFFIX,dj-updates.com,REJECT
 HOST-SUFFIX,djr4k68f8n55o.cloudfront.net,REJECT
@@ -5082,7 +5077,6 @@ HOST-SUFFIX,ekmpinpoint.com,REJECT
 HOST-SUFFIX,ela-3-tnk.com,REJECT
 HOST-SUFFIX,elasticad.net,REJECT
 HOST-SUFFIX,elastx.net,REJECT
-HOST-SUFFIX,electosake.com,REJECT
 HOST-SUFFIX,elite-s001.com,REJECT
 HOST-SUFFIX,elitics.com,REJECT
 HOST-SUFFIX,eltex.co.jp,REJECT
@@ -6368,7 +6362,6 @@ HOST-SUFFIX,huidakms.com.cn,REJECT
 HOST-SUFFIX,huilian.info,REJECT
 HOST-SUFFIX,huishenghuiying.com,REJECT
 HOST-SUFFIX,humanclick.com,REJECT
-HOST-SUFFIX,humsoolt.net,REJECT
 HOST-SUFFIX,hundun.mobi,REJECT
 HOST-SUFFIX,hung.ch,REJECT
 HOST-SUFFIX,hunkal.com,REJECT
@@ -8256,7 +8249,6 @@ HOST-SUFFIX,matrimoniale3x.ro,REJECT
 HOST-SUFFIX,matrix-cash.com,REJECT
 HOST-SUFFIX,matwbp.iask.sina.com.cn,REJECT
 HOST-SUFFIX,maxiadv.com,REJECT
-HOST-SUFFIX,maxim.pub,REJECT
 HOST-SUFFIX,maxonclick.com,REJECT
 HOST-SUFFIX,maxserving.com,REJECT
 HOST-SUFFIX,maxtracker.net,REJECT
@@ -8786,7 +8778,6 @@ HOST-SUFFIX,mydas.mobi,REJECT
 HOST-SUFFIX,mydisplay.ctfile.com,REJECT
 HOST-SUFFIX,myeffecto.com,REJECT
 HOST-SUFFIX,myes.youku.com,REJECT
-HOST-SUFFIX,myfastcdn.com,REJECT
 HOST-SUFFIX,myfastcounter.com,REJECT
 HOST-SUFFIX,mygeek.cn,REJECT
 HOST-SUFFIX,myhard.com,REJECT
@@ -9175,7 +9166,6 @@ HOST-SUFFIX,offerreality.com,REJECT
 HOST-SUFFIX,offerserve.com,REJECT
 HOST-SUFFIX,offerstrategy.com,REJECT
 HOST-SUFFIX,offline-adv.oray.com,REJECT
-HOST-SUFFIX,ofhypnoer.com,REJECT
 HOST-SUFFIX,oghub.io,REJECT
 HOST-SUFFIX,ogt.jp,REJECT
 HOST-SUFFIX,ohmystats.com,REJECT
@@ -10541,7 +10531,6 @@ HOST-SUFFIX,rtb-media.me,REJECT
 HOST-SUFFIX,rtb.com.ru,REJECT
 HOST-SUFFIX,rtb123.com,REJECT
 HOST-SUFFIX,rtbapi.douyucdn.cn,REJECT
-HOST-SUFFIX,rtbpop.com,REJECT
 HOST-SUFFIX,rtbsystem.com,REJECT
 HOST-SUFFIX,rtbterra.com,REJECT
 HOST-SUFFIX,rtk.io,REJECT
@@ -12542,7 +12531,6 @@ HOST-SUFFIX,v68.ink,REJECT
 HOST-SUFFIX,v7.shaoyumuye.com,REJECT
 HOST-SUFFIX,va-endpoint.com,REJECT
 HOST-SUFFIX,va.gxpan.cn,REJECT
-HOST-SUFFIX,vacwrite.com,REJECT
 HOST-SUFFIX,val.api.youku.com,REJECT
 HOST-SUFFIX,val.atm.youku.com,REJECT
 HOST-SUFFIX,valatm.cp12.wasu.tv,REJECT
@@ -14292,6 +14280,7 @@ HOST,adnium.com,REJECT
 HOST,adnmore.co.kr,REJECT
 HOST,adnow.com,REJECT
 HOST,adnuntius.com,REJECT
+HOST,adnz.co,REJECT
 HOST,adobetag.com,REJECT
 HOST,adocean.pl,REJECT
 HOST,adoftheyear.com,REJECT
@@ -15129,7 +15118,6 @@ HOST,belstat.com,REJECT
 HOST,belstat.de,REJECT
 HOST,belstat.fr,REJECT
 HOST,belstat.nl,REJECT
-HOST,beludicolor.com,REJECT
 HOST,benchtag2.co,REJECT
 HOST,benniuluntai.cn,REJECT
 HOST,bentonow.com,REJECT
@@ -15493,7 +15481,6 @@ HOST,cashtrafic.info,REJECT
 HOST,casualstat.com,REJECT
 HOST,cautiouscrate.com,REJECT
 HOST,cautiouscredit.com,REJECT
-HOST,cba-fed-igh.com,REJECT
 HOST,cbjg.cqnews.net,REJECT
 HOST,cbtrk.net,REJECT
 HOST,cc-dt.com,REJECT
@@ -16364,9 +16351,6 @@ HOST,distiltag.com,REJECT
 HOST,distribeo.com,REJECT
 HOST,districtm.ca,REJECT
 HOST,districtm.io,REJECT
-HOST,dit-dit-dot.com,REJECT
-HOST,ditdotsol.com,REJECT
-HOST,ditwrite.com,REJECT
 HOST,divolution.com,REJECT
 HOST,dj-updates.com,REJECT
 HOST,djr4k68f8n55o.cloudfront.net,REJECT
@@ -16742,7 +16726,6 @@ HOST,ekmpinpoint.com,REJECT
 HOST,ela-3-tnk.com,REJECT
 HOST,elasticad.net,REJECT
 HOST,elastx.net,REJECT
-HOST,electosake.com,REJECT
 HOST,elite-s001.com,REJECT
 HOST,elitics.com,REJECT
 HOST,eltex.co.jp,REJECT
@@ -17605,7 +17588,6 @@ HOST,huha.ink,REJECT
 HOST,huidakms.com.cn,REJECT
 HOST,huilian.info,REJECT
 HOST,humanclick.com,REJECT
-HOST,humsoolt.net,REJECT
 HOST,hundun.mobi,REJECT
 HOST,hung.ch,REJECT
 HOST,hunkal.com,REJECT
@@ -18818,7 +18800,6 @@ HOST,matomo.cloud,REJECT
 HOST,matrimoniale3x.ro,REJECT
 HOST,matrix-cash.com,REJECT
 HOST,maxiadv.com,REJECT
-HOST,maxim.pub,REJECT
 HOST,maxonclick.com,REJECT
 HOST,maxserving.com,REJECT
 HOST,maxtracker.net,REJECT
@@ -19156,7 +19137,6 @@ HOST,mycasinoaccounts.com,REJECT
 HOST,mycounter.com.ua,REJECT
 HOST,mycounter.ua,REJECT
 HOST,myeffecto.com,REJECT
-HOST,myfastcdn.com,REJECT
 HOST,myfastcounter.com,REJECT
 HOST,mygeek.cn,REJECT
 HOST,myhard.com,REJECT
@@ -20375,7 +20355,6 @@ HOST,rta.dailymail.co.uk,REJECT
 HOST,rtb-media.me,REJECT
 HOST,rtb123.com,REJECT
 HOST,rtbapi.douyucdn.cn,REJECT
-HOST,rtbpop.com,REJECT
 HOST,rtbsystem.com,REJECT
 HOST,rtbterra.com,REJECT
 HOST,rtk.io,REJECT
@@ -21706,7 +21685,6 @@ HOST,v3cdn.net,REJECT
 HOST,v68.ink,REJECT
 HOST,v7.shaoyumuye.com,REJECT
 HOST,va-endpoint.com,REJECT
-HOST,vacwrite.com,REJECT
 HOST,valatm.cp12.wasu.tv,REJECT
 HOST,vali-g1.cp31.ott.cibntv.net,REJECT
 HOST,validclick.com,REJECT
