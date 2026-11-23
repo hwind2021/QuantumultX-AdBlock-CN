@@ -1,14 +1,14 @@
 # NAME: AdBlock-Lite
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-11-22 08:12:56 (UTC+8)
+# UPDATED: 2026-11-23 08:42:21 (UTC+8)
 # POLICY: REJECT
-# HOST: 8686
-# HOST-SUFFIX: 13686
+# HOST: 8685
+# HOST-SUFFIX: 13685
 # HOST-KEYWORD: 56
 # IP-CIDR: 222
 # IP6-CIDR: 4
-# TOTAL: 22654
+# TOTAL: 22652
 # DESC: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 
 HOST-SUFFIX,000dn.com,REJECT
@@ -747,7 +747,6 @@ HOST-SUFFIX,accmgr.com,REJECT
 HOST-SUFFIX,accscdn.m.taobao.com,REJECT
 HOST-SUFFIX,acecounter.com,REJECT
 HOST-SUFFIX,acexedge.com,REJECT
-HOST-SUFFIX,acgbase.com,REJECT
 HOST-SUFFIX,acgbenzi.com,REJECT
 HOST-SUFFIX,achicih.gitee.io,REJECT
 HOST-SUFFIX,acidpigs.com,REJECT
@@ -14016,7 +14015,6 @@ HOST,accmgr.com,REJECT
 HOST,accscdn.m.taobao.com,REJECT
 HOST,acecounter.com,REJECT
 HOST,acexedge.com,REJECT
-HOST,acgbase.com,REJECT
 HOST,acgbenzi.com,REJECT
 HOST,achicih.gitee.io,REJECT
 HOST,acidpigs.com,REJECT
