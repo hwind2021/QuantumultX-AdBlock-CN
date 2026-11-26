@@ -1,14 +1,14 @@
 # NAME: AdBlock-Lite
 # AUTHOR: QuantumultX-CN
 # REPO: https://github.com/hwind2021/QuantumultX-AdBlock-CN
-# UPDATED: 2026-11-25 11:27:56 (UTC+8)
+# UPDATED: 2026-11-26 10:43:31 (UTC+8)
 # POLICY: REJECT
-# HOST: 8685
-# HOST-SUFFIX: 13685
+# HOST: 8678
+# HOST-SUFFIX: 13677
 # HOST-KEYWORD: 56
 # IP-CIDR: 222
 # IP6-CIDR: 4
-# TOTAL: 22652
+# TOTAL: 22637
 # DESC: 日常推荐：开屏专项 + 双源共识广告域名 + HTTPDNS 拦截，体量与效果平衡
 
 HOST-SUFFIX,000dn.com,REJECT
@@ -333,7 +333,6 @@ HOST-SUFFIX,49wanwan.com,REJECT
 HOST-SUFFIX,4affiliate.net,REJECT
 HOST-SUFFIX,4au.htf16a.cn,REJECT
 HOST-SUFFIX,4dex.io,REJECT
-HOST-SUFFIX,4dsbanner.net,REJECT
 HOST-SUFFIX,4dsply.com,REJECT
 HOST-SUFFIX,4dtrk.com,REJECT
 HOST-SUFFIX,4f2sm1y1ss.com,REJECT
@@ -5845,7 +5844,6 @@ HOST-SUFFIX,globaladmedia.com,REJECT
 HOST-SUFFIX,globaladsales.com,REJECT
 HOST-SUFFIX,globaladv.net,REJECT
 HOST-SUFFIX,globalinteractive.com,REJECT
-HOST-SUFFIX,globaltraffico.com,REJECT
 HOST-SUFFIX,globalwebindex.net,REJECT
 HOST-SUFFIX,globase.com,REJECT
 HOST-SUFFIX,globel.co.uk,REJECT
@@ -8166,8 +8164,6 @@ HOST-SUFFIX,madcpms.com,REJECT
 HOST-SUFFIX,madhouse.cn,REJECT
 HOST-SUFFIX,madmini.com,REJECT
 HOST-SUFFIX,madnet.ru,REJECT
-HOST-SUFFIX,madsabs.com,REJECT
-HOST-SUFFIX,madsans.com,REJECT
 HOST-SUFFIX,madserving.com,REJECT
 HOST-SUFFIX,madsone.com,REJECT
 HOST-SUFFIX,maebtjn.com,REJECT
@@ -8893,7 +8889,6 @@ HOST-SUFFIX,net-filter.com,REJECT
 HOST-SUFFIX,netaffiliation.com,REJECT
 HOST-SUFFIX,netagent.cz,REJECT
 HOST-SUFFIX,netapplications.com,REJECT
-HOST-SUFFIX,netavenir.com,REJECT
 HOST-SUFFIX,netbiscuits.net,REJECT
 HOST-SUFFIX,netcatx.com,REJECT
 HOST-SUFFIX,netclickstats.com,REJECT
@@ -9634,7 +9629,6 @@ HOST-SUFFIX,pipeaota.com,REJECT
 HOST-SUFFIX,pippio.com,REJECT
 HOST-SUFFIX,pippity.com,REJECT
 HOST-SUFFIX,pipsol.net,REJECT
-HOST-SUFFIX,pivotrunner.com,REJECT
 HOST-SUFFIX,pix.impdesk.com,REJECT
 HOST-SUFFIX,pix.speedbit.com,REJECT
 HOST-SUFFIX,pix.tagcdn.com,REJECT
@@ -10851,7 +10845,6 @@ HOST-SUFFIX,selfishsea.com,REJECT
 HOST-SUFFIX,sellhealth.com,REJECT
 HOST-SUFFIX,sellpoint.net,REJECT
 HOST-SUFFIX,sellpoints.com,REJECT
-HOST-SUFFIX,selwrite.com,REJECT
 HOST-SUFFIX,semantiqo.com,REJECT
 HOST-SUFFIX,semasio.net,REJECT
 HOST-SUFFIX,sematext.com,REJECT
@@ -11318,7 +11311,6 @@ HOST-SUFFIX,st123.info,REJECT
 HOST-SUFFIX,sta.ganji.com,REJECT
 HOST-SUFFIX,stack-sonar.com,REJECT
 HOST-SUFFIX,stackadapt.com,REJECT
-HOST-SUFFIX,stackattacka.com,REJECT
 HOST-SUFFIX,stadig0.ifeng.com,REJECT
 HOST-SUFFIX,stagingjobshq.com,REJECT
 HOST-SUFFIX,staleshow.com,REJECT
@@ -13842,7 +13834,6 @@ HOST,49453k0l.vs.loveota.com,REJECT
 HOST,4affiliate.net,REJECT
 HOST,4au.htf16a.cn,REJECT
 HOST,4dex.io,REJECT
-HOST,4dsbanner.net,REJECT
 HOST,4dsply.com,REJECT
 HOST,4dtrk.com,REJECT
 HOST,4f2sm1y1ss.com,REJECT
@@ -17242,7 +17233,6 @@ HOST,globaladmedia.com,REJECT
 HOST,globaladsales.com,REJECT
 HOST,globaladv.net,REJECT
 HOST,globalinteractive.com,REJECT
-HOST,globaltraffico.com,REJECT
 HOST,globalwebindex.net,REJECT
 HOST,globase.com,REJECT
 HOST,globel.co.uk,REJECT
@@ -18738,7 +18728,6 @@ HOST,mad1.jirou.com,REJECT
 HOST,madadsmedia.com,REJECT
 HOST,madcpms.com,REJECT
 HOST,madnet.ru,REJECT
-HOST,madsabs.com,REJECT
 HOST,madsone.com,REJECT
 HOST,maebtjn.com,REJECT
 HOST,magiq.com,REJECT
@@ -19227,7 +19216,6 @@ HOST,net-filter.com,REJECT
 HOST,netaffiliation.com,REJECT
 HOST,netagent.cz,REJECT
 HOST,netapplications.com,REJECT
-HOST,netavenir.com,REJECT
 HOST,netbiscuits.net,REJECT
 HOST,netclickstats.com,REJECT
 HOST,netcore.co.in,REJECT
@@ -19714,7 +19702,6 @@ HOST,pipeaota.com,REJECT
 HOST,pippio.com,REJECT
 HOST,pippity.com,REJECT
 HOST,pipsol.net,REJECT
-HOST,pivotrunner.com,REJECT
 HOST,pix.speedbit.com,REJECT
 HOST,pixanalytics.com,REJECT
 HOST,pixazza.com,REJECT
@@ -20540,7 +20527,6 @@ HOST,selfishsea.com,REJECT
 HOST,sellhealth.com,REJECT
 HOST,sellpoint.net,REJECT
 HOST,sellpoints.com,REJECT
-HOST,selwrite.com,REJECT
 HOST,semantiqo.com,REJECT
 HOST,semasio.net,REJECT
 HOST,sematext.com,REJECT
@@ -20875,7 +20861,6 @@ HOST,ssl2anyone5.com,REJECT
 HOST,st.ipornia.com,REJECT
 HOST,stack-sonar.com,REJECT
 HOST,stackadapt.com,REJECT
-HOST,stackattacka.com,REJECT
 HOST,stagingjobshq.com,REJECT
 HOST,staleshow.com,REJECT
 HOST,star-cntr-5.com,REJECT
